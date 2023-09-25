@@ -24,28 +24,7 @@ const Footer = () => {
               <MDBBtn className="m-1" href="#">
                 <AiOutlineTwitter fab icon="twitter" />
               </MDBBtn>
-              <MDBBtn
-                className="m-1"
-                style={{ backgroundColor: "#000000" }}
-                href="#"
-              >
-                <BsTiktok fab icon="tiktok" />
-              </MDBBtn>
-
-              <MDBBtn
-                className="m-1"
-                style={{ backgroundColor: "#Fffc00" }}
-                href="#"
-              >
-                <FaSnapchatSquare fab icon="Snapchat" />
-              </MDBBtn>
-              <MDBBtn
-                className="m-1"
-                style={{ backgroundColor: "#E31C1C" }}
-                href="#"
-              >
-                <BsYoutube fab icon="youtube" />
-              </MDBBtn>
+              
             </div>
           </section>
           <div className="container text-center text-md-start mt-5">
@@ -116,22 +95,27 @@ const Footer = () => {
                   <h6 className="text-uppercase fw-bold">Contact</h6>
                   <hr className="mb-4 mt-0 d-inline-block mx-auto con" />
                   <p className="text-white">
-                    <i className="fas fa-home mr-3 "></i> New York, NY 10012, US
+                    <i className="fas fa-home mr-3 "></i> London, UK TW33TG
                   </p>
                   <p className="text-white">
-                    <i className="fas fa-envelope mr-3 "></i> info@example.com
+                    <i className="fas fa-envelope mr-3 "></i> info@emerenceskincare.com
                   </p>
                   <p className="text-white">
-                    <i className="fas fa-phone mr-3 "></i> + 01 234 567 88
+                    <i className="fas fa-phone mr-3 "></i>  +44 7533 494723 
                   </p>
-                  <p className="text-white">
+                  {/* <p className="text-white">
                     <i className="fas fa-print mr-3 "></i> + 01 234 567 89
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
           <section>
-
+          <div className="text-center  p-3 text-black sec-foot bg-blue-900 text-white">
+            © 2023 Copyright:
+            <Link className="text-white" to="https://www.pronetizens.com/">
+             <i className="g-2 me-2"> Pronetizens</i> 
+            </Link>
+          </div>
           </section>
             
         </footer>

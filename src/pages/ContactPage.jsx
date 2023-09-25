@@ -11,7 +11,7 @@ const ContactPage = () => {
           backgroundImage: `url('/Images/ContactUs.jpg')`, // Replace with your background image
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "1000px", // Set your desired height
+          height: "700px", // Set your desired height
           display: "flex",
           justifyContent: "center", // Center horizontally
           alignItems: "center", // Center vertically
@@ -19,7 +19,7 @@ const ContactPage = () => {
         }}
       >
         <div className="container">
-          <div className="row mb-5">
+          <div className="row mb-3">
             <div className="col-md-6">
               <div className="card">
                 <div className="card-body">
@@ -70,13 +70,13 @@ const ContactPage = () => {
                 <div className="card-body">
                   <h2>Contact Information</h2>
                   <div className="mb-3">
-                    <FaMapMarkerAlt /> 123 Street Name, City
+                    <FaMapMarkerAlt /> London, UK TW33TG
                   </div>
                   <div className="mb-3">
-                    <FaEnvelope /> example@example.com
+                    <FaEnvelope /> info@emerenceskincare.com
                   </div>
                   <div className="mb-3">
-                    <FaFax /> +1 234 567 890
+                    <FaFax /> +44 7533 494723 
                   </div>
                 </div>
               </div>

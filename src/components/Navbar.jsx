@@ -82,10 +82,10 @@ const Navbar = () => {
 
     
 
-    <nav className="navbar navbar-expand-lg navbar-white bg-white py-3 ">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-light bg-Skyblue py-3 ">
+      <div className="container ">
         <div className="navbar-brand fw-bold fs-4 px-2 logo ms-4">
-          <img src="/Images/logo.png" alt="logo" style={{ height: "100px" }} />
+          <img src="/Images/logo.png" alt="logo" style={{ height: "50px" }} />
         </div>
         {/* <NavLink  className="navbar-brand fw-bold fs-4 px-2" to="/"> React Ecommerce</NavLink> */}
         <button

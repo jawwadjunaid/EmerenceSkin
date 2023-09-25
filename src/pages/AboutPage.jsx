@@ -24,16 +24,16 @@ const AboutPage = () => {
         <div className="text-center m-5 mt-4">
           <h1>Company Profile</h1>
           <p>
-            Ariel Cosmetic is a positioning skin care product manufacturer, we
-            focus on high-quality, competitive, flexible order quantity, on-time
-            delivery, etc. Ariel Cosmetic Co., Ltd. was established in 1998 and
-            is headquartered in Guangzhou. The company has always adhered to
-            the principle of customer first, and we believe that through our
-            efforts, we can escort the products of small and medium-sized
-            enterprises. Ariel Cosmetic mainly provides skin care product
-            labeling services for the European and North American markets. We
-            mainly supply cream, serum, toner, lotion, oil, facial mask, and
-            other products.
+          At Emerence, we prioritize the utilization of premium ingredients and implement a rigorous triple-check system to ensure the impeccable quality of our produce. Our exceptional expertise in formulating effective solutions, combined with the use of high-quality ingredients, stands as one of the fundamental pillars of our company.
+We are committed to becoming a valued partner in the growth of your business. Renowned for our private label skin, body, and hair care products, we consistently strive to develop ethical formulations tailored to meet your specific requirements.
+With our team of experts and dedicated research and development professionals, we have emerged as the preferred choice for both emerging and established companies seeking to expand their business. Our unwavering focus lies in the creation of outstanding brands within the realm of skin and hair care, emphasizing cost efficiency and the delivery of innovative, high-quality products.
+By choosing Emerence as your private label manufacturing partner, you gain access to our unwavering commitment to excellence and our drive to deliver exceptional results in the skin, body, and hair care industry.
+
+At Emerence, we pride ourselves on an array of strengths that set us apart in the private label manufacturing of skin, body, and hair care products. Our commitment to excellence extends beyond the use of high-quality ingredients and a meticulous triple-check system.
+One of our primary strengths lies in our exceptional research and development (R&D) capabilities. Our experienced and innovative R&D team possesses a deep understanding of the industry, allowing us to devise cutting-edge formulations that address specific customer needs. With a relentless pursuit of scientific advancements and a keen eye for emerging trends, our R&D team ensures that our products remain at the forefront of the market.
+Moreover, our commitment to collaboration and partnership is another strength that distinguishes us. We don't simply offer private label manufacturing services; we actively seek to become your trusted partner in business growth. By understanding your unique goals and requirements, we leverage our expertise to develop customized solutions that align with your brand vision. We believe that by fostering strong partnerships, we can collectively achieve success in the competitive landscape of the skin, body, and hair care industry.
+Furthermore, our emphasis on cost efficiency is a driving force behind our operations. We understand the importance of balancing quality with affordability, and our dedicated team continuously explores ways to optimize production processes without compromising the integrity of our products. This commitment enables us to deliver exceptional value to our partners while maintaining our unwavering commitment to high-quality, innovative offerings.
+In summary, at Emerence, we combine the power of our exceptional R&D capabilities, collaborative approach, and focus on cost efficiency to deliver outstanding private label skin, body, and hair care products. Partnering with us means gaining access to a dedicated team that prioritizes your success and remains at the forefront of industry trends and advancements.
           </p>
         </div>
         <div

@@ -16,7 +16,7 @@ const FormulaDevelopment = () => {
         />
         <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
          
-            <h1 className="text-light ">Guangzhou Ariel</h1>
+            <h1 className="text-light ">Skin Care Formulation</h1>
             <p className='d-flex text-white justify-content-center'><Link className='nav-link text-danger' to="/"> Home  
         </Link> / Formula Development
         </p>
