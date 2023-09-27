@@ -6,9 +6,9 @@ import Button from "@mui/joy/Button";
 const CompanyLayout = () => {
   return (
     <>
-     <div className="cardlayout card-group p-5">
-        <div className="card  bg-white m-4 mt-1 me-4" color="#f7f7f7">
-          <div className="card-body " color="#f7f7f7">
+     <div className="cardlayout card-group p-5" style={{color:"#f7f7f7"}}>
+        <div className="card  bg-white m-4 mt-1 me-4"  >
+          <div className="card-body " >
             <h4 className="text-center m-5">Customer Case</h4>
             <p className="card-text pb-3  " >
               <div className="card-img"></div>

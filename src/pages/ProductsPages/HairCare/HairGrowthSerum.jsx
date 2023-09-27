@@ -10,40 +10,41 @@ import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
 //import Typography from '@mui/joy/Typography';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import Modal from "../../../components/Modal/BtnModal";
 const HairGrowthSerum = () => {
   return (
     <>
-    <Navbar />
-    <div>
-      <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
-        <Card
-          className="col me-5"
-          sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
-        >
-          <CardOverflow>
-            <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-                loading="lazy"
-                alt=""
-              />
-            </AspectRatio>
-          </CardOverflow>
-          <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-            <Link
-              href="#product-card"
-              fontWeight="md"
-              color="neutral"
-              textColor="text.primary"
-              overlay
-              endDecorator={<ArrowOutwardIcon />}
-            >
-              Procapil, Biotin Hair Growth Serum
-            </Link>
+      <Navbar />
+      <div>
+        <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
+          >
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
+                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  loading="lazy"
+                  alt=""
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Procapil, Biotin Hair Growth Serum
+              </Link>
 
-            {/* <Typography
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -54,41 +55,42 @@ const HairGrowthSerum = () => {
           >
             2,900 THB
           </Typography> */}
-            {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-          </CardContent>
-          <CardOverflow>
-            <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button>
-          </CardOverflow>
-        </Card>
-        <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-            Pisum Sativum, Pro Vitamin B5 and Biotin Serum
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
+                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  loading="lazy"
+                  alt=""
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Pisum Sativum, Pro Vitamin B5 and Biotin Serum
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -99,43 +101,42 @@ const HairGrowthSerum = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-          <Button variant="solid" color="primary" size="lg">
-            <Link>
-           Get Quotes
-           </Link>
-          </Button>
-        </CardOverflow>
-      </Card>
-      <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-            Placental Extracts Serum with Biotin and Pisum Sativum 
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
+                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  loading="lazy"
+                  alt=""
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Placental Extracts Serum with Biotin and Pisum Sativum
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -146,24 +147,19 @@ const HairGrowthSerum = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-          <Button variant="solid" color="primary" size="lg">
-            <Link>
-           Get Quotes
-           </Link>
-          </Button>
-        </CardOverflow>
-      </Card>
-     
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+        </div>
       </div>
-    </div>
-    <Footer />
-  </>
+      <Footer />
+    </>
   );
-}
+};
 
 export default HairGrowthSerum;

@@ -10,6 +10,7 @@ import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
 //import Typography from '@mui/joy/Typography';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import Modal from '../../../components/Modal/BtnModal';
 
 
 
@@ -62,9 +63,7 @@ const BodyButter = () => {
           </Typography> */}
           </CardContent>
           <CardOverflow>
-            <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button>
+           <Modal/>
           </CardOverflow>
         </Card>
         <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
@@ -107,11 +106,7 @@ const BodyButter = () => {
           </Typography> */}
         </CardContent>
         <CardOverflow>
-          <Button variant="solid" color="primary" size="lg">
-            <Link>
-           Get Quotes
-           </Link>
-          </Button>
+         <Modal/>
         </CardOverflow>
       </Card>
       

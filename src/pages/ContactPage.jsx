@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
 import { FaMapMarkerAlt, FaEnvelope, FaFax } from "react-icons/fa";
+import Modal from "../components/Modal/BtnModal";
 const ContactPage = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const ContactPage = () => {
           display: "flex",
           justifyContent: "center", // Center horizontally
           alignItems: "center", // Center vertically
-          filter:"brightness(100%)"
+          filter: "brightness(100%)",
         }}
       >
         <div className="container">
@@ -76,14 +77,13 @@ const ContactPage = () => {
                     <FaEnvelope /> info@emerenceskincare.com
                   </div>
                   <div className="mb-3">
-                    <FaFax /> +44 7533 494723 
+                    <FaFax /> +44 7533 494723
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
       <div className="card">
         <div className="text-center m-5 mt-5">
@@ -92,11 +92,9 @@ const ContactPage = () => {
             Let's Help You Build Your Skin Care Brand, No Matter Your Project Is
             Complicated Or Simple
           </p>
-          <button type="button" className="btn btn-primary ">
-            Get A Quote
-          </button>
+          <Modal />
         </div>
-        </div>
+      </div>
       <Footer />
     </>
   );

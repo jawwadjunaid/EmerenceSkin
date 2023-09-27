@@ -166,8 +166,9 @@ const Navbar = () => {
           </MenuItem>
         ))}
       </Menu>
+      
     </div>
-    
+
     <div>
       <Button
         id="basic-button"

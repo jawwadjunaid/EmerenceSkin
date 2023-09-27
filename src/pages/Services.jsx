@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import Modal from "../components/Modal/BtnModal";
 
 const Services = () => {
   return (
@@ -27,7 +28,7 @@ const Services = () => {
               </Link>{" "}
               / Services
             </p>
-            <button className="btn btn-primary btn-lg">Get A Quote</button>
+            <Modal />
           </div>
         </div>
         <div className="text-center m-5">
@@ -257,9 +258,7 @@ const Services = () => {
                 Let's Help You Build Your Skin Care Brand, No Matter Your
                 Project Is Complicated Or Simple
               </p>
-              <button type="button" className="btn btn-primary ">
-                Get A Quote
-              </button>
+              <Modal />
             </div>
           </div>
         </div>

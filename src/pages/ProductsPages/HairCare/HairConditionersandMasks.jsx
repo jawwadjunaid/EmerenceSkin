@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from '../../../components/Modal/BtnModal';
 
 const HairConditionersandMasks = () => {
   return (
@@ -49,9 +50,7 @@ const HairConditionersandMasks = () => {
           </Typography> */}
           </CardContent>
           <CardOverflow>
-            <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button>
+            <Modal/>
           </CardOverflow>
         </Card>
        
