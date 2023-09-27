@@ -1,7 +1,7 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Chip from '@mui/joy/Chip'
+//import Chip from '@mui/joy/Chip'
 import Modal from '../Modal/BtnModal';
 const Slider = () => {
   return (
@@ -13,18 +13,19 @@ const Slider = () => {
         </div>
     </div>
 
-    
-    <div className="position-absolute top-50 start-50 translate-middle text-start w-100">
+    <div className='position-relative '>
         <img src="/Images/bg-img1.jpg" alt='bg2'/>
+        <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
         <Modal/>
     </div>
-
-
-    <div className="position-absolute top-50 start-50 translate-middle text-start w-100">
-        <img src="/Images/bg-img2.jpg" alt='bg3' />
-        Modal
     </div>
+    <div className='position-relative '>
    
+        <img src="/Images/bg-img2.jpg" alt='bg3' />
+        <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
+        <Modal/>
+    </div>
+    </div>
 </Carousel>
   );
 }
