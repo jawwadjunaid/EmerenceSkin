@@ -25,8 +25,8 @@ const HandmadeSoaps = () => {
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
               <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                src="/Images/ProductImages/HandmadeSoaps/CarrierOils.jpg"
+              
                 loading="lazy"
                 alt=""
               />
@@ -68,10 +68,10 @@ const HandmadeSoaps = () => {
         <CardOverflow>
           <AspectRatio sx={{ minWidth: 200 }}>
             <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+              src="/Images/ProductImages/HandmadeSoaps/Glycerine.jpg"
+             
               loading="lazy"
-              alt=""
+              alt="Glycerine"
             />
           </AspectRatio>
         </CardOverflow>
@@ -111,10 +111,10 @@ const HandmadeSoaps = () => {
         <CardOverflow>
           <AspectRatio sx={{ minWidth: 200 }}>
             <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+              src="/Images/ProductImages/HandmadeSoaps/SoapwithEssen.jpg"
+              
               loading="lazy"
-              alt=""
+              alt="SoapwithEssen"
             />
           </AspectRatio>
         </CardOverflow>

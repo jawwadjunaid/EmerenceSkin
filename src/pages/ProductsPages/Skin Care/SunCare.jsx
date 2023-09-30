@@ -25,8 +25,8 @@ const SunCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Suncare/SPF.jpg"
+                  
                   loading="lazy"
                   alt=""
                 />
@@ -71,10 +71,10 @@ const SunCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Suncare/SunBlockGel.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="SunBlockGel"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -117,10 +117,10 @@ const SunCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Suncare/TintedSPF.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="TintedSPF"
                 />
               </AspectRatio>
             </CardOverflow>

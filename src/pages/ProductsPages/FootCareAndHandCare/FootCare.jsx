@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
 import AspectRatio from "@mui/joy/AspectRatio";
 import Button from "@mui/joy/Button";
 import Card from "@mui/joy/Card";
@@ -13,7 +13,6 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Modal from '../../../components/Modal/BtnModal';
 
 
-import React from 'react';
 
 const FootCare = () => {
   return (
@@ -28,8 +27,8 @@ const FootCare = () => {
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
               <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                src="/Images/ProductImages/FootCare/lavenderandaArgan.jpg"
+                
                 loading="lazy"
                 alt=""
               />
@@ -71,10 +70,10 @@ const FootCare = () => {
         <CardOverflow>
           <AspectRatio sx={{ minWidth: 200 }}>
             <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+              src="/Images/ProductImages/FootCare/lavenderandhemp.jpg"
+              
               loading="lazy"
-              alt=""
+              alt="lavenderandhemp"
             />
           </AspectRatio>
         </CardOverflow>
@@ -114,10 +113,10 @@ const FootCare = () => {
         <CardOverflow>
           <AspectRatio sx={{ minWidth: 200 }}>
             <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+              src="/Images/ProductImages/FootCare/PumkinLemon.jpg"
+             
               loading="lazy"
-              alt=""
+              alt="PumkinLemon"
             />
           </AspectRatio>
         </CardOverflow>

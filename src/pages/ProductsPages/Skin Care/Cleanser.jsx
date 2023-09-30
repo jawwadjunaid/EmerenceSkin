@@ -25,10 +25,10 @@ const Cleanser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Cleansers/CreamAHA.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="CreamAHA"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -71,10 +71,10 @@ const Cleanser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Cleansers/CreamBHA.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="CreamBHA"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -117,10 +117,10 @@ const Cleanser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Cleansers/CreamSQUA.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="CreamSQUA"
                 />
               </AspectRatio>
             </CardOverflow>

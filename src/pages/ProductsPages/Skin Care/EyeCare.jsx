@@ -25,8 +25,8 @@ const EyeCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Eyecare/Peptide.jpg"
+                  
                   loading="lazy"
                   alt=""
                 />
@@ -71,10 +71,10 @@ const EyeCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Eyecare/Saffron.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="Saffron"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -117,10 +117,10 @@ const EyeCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/Eyecare/VitaminK.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="VitaminK"
                 />
               </AspectRatio>
             </CardOverflow>

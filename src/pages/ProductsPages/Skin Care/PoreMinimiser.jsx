@@ -24,10 +24,10 @@ const PoreMinimiser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/PoreMinimiser/B3 PCA serum.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="B3 PCA serum"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -71,10 +71,10 @@ const PoreMinimiser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/PoreMinimiser/Glycolicacid.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="Glycolicacid"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -117,10 +117,10 @@ const PoreMinimiser = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductIanges/PoreMinimiser/HyalurnicAcid.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="HyalurnicAcid"
                 />
               </AspectRatio>
             </CardOverflow>

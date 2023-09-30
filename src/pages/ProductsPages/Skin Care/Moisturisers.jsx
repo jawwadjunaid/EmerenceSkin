@@ -15,37 +15,36 @@ import Modal from "../../../components/Modal/BtnModal";
 const Moisturisers = () => {
   return (
     <>
-    <Navbar />
-    <div>
-      <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
-        <Card
-          className="col me-5"
-          sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
-        >
-          <CardOverflow>
-            <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-                loading="lazy"
-                alt=""
-              />
-            </AspectRatio>
-          </CardOverflow>
-          <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-            <Link
-              href="#product-card"
-              fontWeight="md"
-              color="neutral"
-              textColor="text.primary"
-              overlay
-              endDecorator={<ArrowOutwardIcon />}
-            >
-              For Dry skin with Urea, Squalane, Peptides
-            </Link>
+      <Navbar />
+      <div>
+        <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
+          >
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductIanges/Moisturisers/DrySkinUrea.jpg"
+                  loading="lazy"
+                  alt="DrySkinUrea"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                For Dry skin with Urea, Squalane, Peptides
+              </Link>
 
-            {/* <Typography
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -56,39 +55,41 @@ const Moisturisers = () => {
           >
             2,900 THB
           </Typography> */}
-            {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-          </CardContent>
-          <CardOverflow>
-          <Modal/>
-          </CardOverflow>
-        </Card>
-        <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          <Typography level="body-xs">For Oily skin</Typography>
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-          acne prone skin with Vitamin C, E and Niacinamide
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductIanges/Moisturisers/Gel Moisturiser.jpg"
+                  loading="lazy"
+                  alt="Gel Moisturiser"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              <Typography level="body-xs">For Oily skin</Typography>
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                acne prone skin with Vitamin C, E and Niacinamide
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -99,39 +100,41 @@ const Moisturisers = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-        <Modal/>
-        </CardOverflow>
-      </Card>
-      <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-           Gel Moisturiser with Hyaluronic Acid 
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductIanges/Moisturisers/OilySkin.jpg"
+                  loading="lazy"
+                  alt="OilySkin"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Gel Moisturiser with Hyaluronic Acid
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -142,20 +145,19 @@ const Moisturisers = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-        <Modal/>
-        </CardOverflow>
-      </Card>
-    
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+        </div>
       </div>
-    </div>
-    <Footer />
-  </>
+      <Footer />
+    </>
   );
-}
+};
 
 export default Moisturisers;

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import AspectRatio from "@mui/joy/AspectRatio";
-import Button from "@mui/joy/Button";
+//import Button from "@mui/joy/Button";
 import Card from "@mui/joy/Card";
 import CardContent from "@mui/joy/CardContent";
 import CardOverflow from "@mui/joy/CardOverflow";
@@ -11,6 +11,7 @@ import Link from "@mui/joy/Link";
 //import Typography from '@mui/joy/Typography';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Modal from "../../../components/Modal/BtnModal";
+//import MendelicAcidSerum from '../SubSkinCare/AcneAcreProductPage/MendelicAcidSerum'
 
 const AcneAcre = () => {
   return (
@@ -25,17 +26,17 @@ const AcneAcre = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/AcneCare/20%Mendelic.jpg"
                   loading="lazy"
-                  alt=""
+                  alt="20%Mendelic"
+                  to="/mendelicacidserum"
                 />
               </AspectRatio>
             </CardOverflow>
             <CardContent>
               {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
               <Link
-                href="#product-card"
+                href="/products"
                 fontWeight="md"
                 color="neutral"
                 textColor="text.primary"
@@ -71,17 +72,16 @@ const AcneAcre = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/FootCare/AzelaicAcid.jpg"
                   loading="lazy"
-                  alt=""
+                  alt="AzelaicAcid"
                 />
               </AspectRatio>
             </CardOverflow>
             <CardContent>
               {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
               <Link
-                href="#product-card"
+                href="/facewash"
                 fontWeight="md"
                 color="neutral"
                 textColor="text.primary"

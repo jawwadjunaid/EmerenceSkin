@@ -24,10 +24,10 @@ const HyperpigmentationMelasma = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Hyperpigmentation/AlphaArbutin.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="AlphaArbutin"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -70,10 +70,10 @@ const HyperpigmentationMelasma = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Hyperpigmentation/Glutathione.jpg"
+                
                   loading="lazy"
-                  alt=""
+                  alt="Glutathione"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -116,10 +116,10 @@ const HyperpigmentationMelasma = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Hyperpigmentation/KATE.jpg"
+                
                   loading="lazy"
-                  alt=""
+                  alt="KATE"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -162,10 +162,10 @@ const HyperpigmentationMelasma = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Hyperpigmentation/Tranexamic.jpg"
+             
                   loading="lazy"
-                  alt=""
+                  alt="Tranexamic"
                 />
               </AspectRatio>
             </CardOverflow>

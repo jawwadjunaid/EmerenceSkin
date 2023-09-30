@@ -15,37 +15,36 @@ import Modal from "../../../components/Modal/BtnModal";
 const ShowerGels = () => {
   return (
     <>
-    <Navbar />
-    <div>
-      <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
-        <Card
-          className="col me-5"
-          sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
-        >
-          <CardOverflow>
-            <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-                loading="lazy"
-                alt=""
-              />
-            </AspectRatio>
-          </CardOverflow>
-          <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-            <Link
-              href="#product-card"
-              fontWeight="md"
-              color="neutral"
-              textColor="text.primary"
-              overlay
-              endDecorator={<ArrowOutwardIcon />}
-            >
-             Lavender Shower Gel 
-            </Link>
+      <Navbar />
+      <div>
+        <div className="row row-cols-1 row-cols-md-4 g-4 m-5">
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
+          >
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductImages/ShowerGels/Grapefruit.jpg"
+                  loading="lazy"
+                  alt="Grapefruit"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Lavender Shower Gel
+              </Link>
 
-            {/* <Typography
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -56,39 +55,41 @@ const ShowerGels = () => {
           >
             2,900 THB
           </Typography> */}
-            {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-          </CardContent>
-          <CardOverflow>
-            <Modal/>
-          </CardOverflow>
-        </Card>
-        <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-            Grapefruit And Orange Shower Gel 
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductImages/ShowerGels/LavenderShower.jpg"
+                  loading="lazy"
+                  alt="LavenderShower"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                Grapefruit And Orange Shower Gel
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -99,39 +100,41 @@ const ShowerGels = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-          <Modal/>
-        </CardOverflow>
-      </Card>
-      <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-              srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
-          <Link
-            href="#product-card"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+          <Card
+            className="col me-5"
+            sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
           >
-           SLS Free Shower Gel
-          </Link>
-  
-          {/* <Typography
+            <CardOverflow>
+              <AspectRatio sx={{ minWidth: 200 }}>
+                <img
+                  src="/Images/ProductImages/ShowerGels/SlsFree.jpg"
+                  loading="lazy"
+                  alt="SlsFree"
+                />
+              </AspectRatio>
+            </CardOverflow>
+            <CardContent>
+              {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+              <Link
+                href="#product-card"
+                fontWeight="md"
+                color="neutral"
+                textColor="text.primary"
+                overlay
+                endDecorator={<ArrowOutwardIcon />}
+              >
+                SLS Free Shower Gel
+              </Link>
+
+              {/* <Typography
             level="title-lg"
             sx={{ mt: 1, fontWeight: 'xl' }}
             endDecorator={
@@ -142,20 +145,19 @@ const ShowerGels = () => {
           >
             2,900 THB
           </Typography> */}
-          {/* <Typography level="body-sm">
+              {/* <Typography level="body-sm">
             (Only <b>7</b> left in stock!)
           </Typography> */}
-        </CardContent>
-        <CardOverflow>
-          <Modal/>
-        </CardOverflow>
-      </Card>
-    
+            </CardContent>
+            <CardOverflow>
+              <Modal />
+            </CardOverflow>
+          </Card>
+        </div>
       </div>
-    </div>
-    <Footer />
-  </>
+      <Footer />
+    </>
   );
-}
+};
 
 export default ShowerGels;

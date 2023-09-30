@@ -25,10 +25,10 @@ const LipCare = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Hyperpigmentation/Healinglavender.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="Healinglavender"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -68,10 +68,10 @@ const LipCare = () => {
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
               <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                src="/Images/ProductImages/Hyperpigmentation/LipCareDark.jpg"
+               
                 loading="lazy"
-                alt=""
+                alt="LipCareDark"
               />
             </AspectRatio>
           </CardOverflow>

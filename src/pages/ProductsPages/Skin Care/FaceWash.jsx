@@ -24,10 +24,10 @@ const FaceWash = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Facewash/Glycolic.jpg"
+                 
                   loading="lazy"
-                  alt=""
+                  alt="Glycolic"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -70,10 +70,10 @@ const FaceWash = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Facewash/Mendelic.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="Mendelic"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -116,10 +116,10 @@ const FaceWash = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Facewash/Salicylic.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="Salicylic"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -162,10 +162,10 @@ const FaceWash = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Facewash/vitamin-c-face-wash_1.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="vitamin-c-face-wash_1"
                 />
               </AspectRatio>
             </CardOverflow>

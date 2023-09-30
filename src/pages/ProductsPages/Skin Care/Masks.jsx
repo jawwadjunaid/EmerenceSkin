@@ -25,10 +25,10 @@ const Masks = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Masks/AphaArbutin.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="AphaArbutin"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -71,10 +71,10 @@ const Masks = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Masks/GreenTea.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="GreenTea"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -117,10 +117,10 @@ const Masks = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/Masks/Rejuvenating.jpg"
+                  
                   loading="lazy"
-                  alt=""
+                  alt="Rejuvenating"
                 />
               </AspectRatio>
             </CardOverflow>

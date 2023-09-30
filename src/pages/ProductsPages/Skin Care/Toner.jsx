@@ -22,10 +22,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/AHABHA.jpg"
+        
         loading="lazy"
-        alt=""
+        alt="AHABHA"
       />
     </AspectRatio>
   </CardOverflow>
@@ -65,10 +65,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/B3.jpg"
+       
         loading="lazy"
-        alt=""
+        alt="B3"
       />
     </AspectRatio>
   </CardOverflow>
@@ -108,10 +108,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/GentleToner.jpg"
+        
         loading="lazy"
-        alt=""
+        alt="GentleToner"
       />
     </AspectRatio>
   </CardOverflow>
@@ -151,10 +151,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/GrapeFriut.jpg"
+       
         loading="lazy"
-        alt=""
+        alt="GrapeFriut"
       />
     </AspectRatio>
   </CardOverflow>
@@ -194,10 +194,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/GrapeSeedToner.jpg"
+    
         loading="lazy"
-        alt=""
+        alt="GrapeSeedToner"
       />
     </AspectRatio>
   </CardOverflow>
@@ -237,10 +237,10 @@ const Toner = () => {
   <CardOverflow>
     <AspectRatio sx={{ minWidth: 200 }}>
       <img
-        src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-        srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+        src="/Images/ProductImages/Toners/TeaTree.jpg"
+       
         loading="lazy"
-        alt=""
+        alt="TeaTree"
       />
     </AspectRatio>
   </CardOverflow>

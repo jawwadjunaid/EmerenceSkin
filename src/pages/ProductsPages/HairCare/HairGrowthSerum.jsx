@@ -24,10 +24,9 @@ const HairGrowthSerum = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/HairgrowthSerum/PisumSativm.jpg"
                   loading="lazy"
-                  alt=""
+                  alt="PisumSativm"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -70,10 +69,9 @@ const HairGrowthSerum = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/HairgrowthSerum/PlaceentalExtracts.jpg"
                   loading="lazy"
-                  alt=""
+                  alt="PlaceentalExtracts"
                 />
               </AspectRatio>
             </CardOverflow>
@@ -116,10 +114,9 @@ const HairGrowthSerum = () => {
             <CardOverflow>
               <AspectRatio sx={{ minWidth: 200 }}>
                 <img
-                  src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                  srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                  src="/Images/ProductImages/HairgrowthSerum/ProcapilBiotin.jpg"
                   loading="lazy"
-                  alt=""
+                  alt="ProcapilBiotin"
                 />
               </AspectRatio>
             </CardOverflow>
