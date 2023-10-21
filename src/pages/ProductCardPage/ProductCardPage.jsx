@@ -1,7 +1,6 @@
 import React from "react";
 import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
-
 import BtnModal from "../../components/Modal/BtnModal";
 import "./ProductCardPage.css";
 const ProductCardPage = () => {
