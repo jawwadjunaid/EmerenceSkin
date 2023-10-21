@@ -13,8 +13,8 @@ const Services = () => {
           <img
             src="Images/services.jpg"
             alt="Services"
-            className="img-fluid w-100 h-50"
-            style={{ filter: "brightness(70%)" }}
+            className="img-fluid w-100 h-10"
+            style={{ filter: "brightness(70%)", height:"450px" }}
           />
           <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
             <h1 className="text-light ">

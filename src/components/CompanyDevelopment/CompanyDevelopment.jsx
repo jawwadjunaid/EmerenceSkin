@@ -9,7 +9,7 @@ import clsx from 'clsx';
 const CompanyDevelopment = () => {
   return (
     <>
-     <div className="row row-cols- row-cols-md-2 g-4 mt-4  mx-4 s p-3 mb-5 bg-body rounded">
+     <div className="row row-cols- row-cols-md-2 g-4 mt-4  mx-5 s p-3 mb-5 bg-body rounded">
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
             <img
@@ -28,8 +28,8 @@ const CompanyDevelopment = () => {
                 customized requirements.
               </p>
               <CardOverflow>
-              <Button variant="solid" color="primary" size="lg">
-              <Link to="/formuladevelopment">{`Read More >>>`}</Link>
+              <Button style={{color:'white', backgroundColor:'#2cadcd'}} variant="solid"  size="lg">
+              <Link to="/formuladevelopment">{`Read More`}</Link>
             </Button>
             </CardOverflow>
             </div>
@@ -53,8 +53,8 @@ const CompanyDevelopment = () => {
                 competition.
               </p>
               <CardOverflow>
-              <Button variant="solid" color="primary" size="lg">
-              <Link to="/cleanser">{`Read More >>>`}</Link>
+              <Button variant="solid" style={{color:'white',backgroundColor:'#2cadcd'}} size="lg">
+              <Link to="/cleanser">{`Read More`}</Link>
             </Button>
             </CardOverflow>
             </div>

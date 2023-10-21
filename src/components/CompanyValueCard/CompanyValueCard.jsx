@@ -3,20 +3,19 @@ import AspectRatio from "@mui/joy/AspectRatio";
 import CardContent from "@mui/joy/CardContent";
 import Link from "@mui/joy/Link";
 import Card from "@mui/joy/Card";
-//import Button from "@mui/joy/Button";
-///import Chip from '@mui/joy/Chip';
+
 import Typography from '@mui/joy/Typography';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
-//import { Input, inputClasses } from '@mui/base/Input';
+
 
 const CompanyValueCard = () => {
   return (
    <>
          
-      <div className="row row-cols-1 row-cols-md-4 g-4 m-5 ">
+      <div className="row row-cols-1 row-cols-md-3 g-2 m-4 ps-5 justify-content-center ">
         <Card
-          className="col me-5"
+          className="col me-5 "
           sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
         >
           <CardOverflow>
@@ -30,7 +29,7 @@ const CompanyValueCard = () => {
             </AspectRatio>
           </CardOverflow>
           <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
+           
             <Link
               href="/facewash"
               fontWeight="md"

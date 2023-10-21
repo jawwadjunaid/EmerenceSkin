@@ -1,7 +1,7 @@
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
-    color: rgb(142, 195, 232);
+    color: rgb(82, 154, 206);
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -15,10 +15,14 @@
   .button2 {
     background-color: transparent; 
     color: black; 
-    border: 2px solid #07b1ea;
+    border: 2px solid #082934;
   }
   
   .button2:hover {
-    background-color: #3284d7;
-    color: rgb(10, 36, 149);
+    background-color: #0c3864;
+    color: rgb(255, 255, 255);
+  }
+
+  body {
+    font-family: "Ubuntu";
   }

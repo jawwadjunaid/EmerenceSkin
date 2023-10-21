@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+//import { useSelector } from "react-redux";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -11,7 +11,8 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
+import { Box } from "@mui/material";
+import { MdArrowDropDown } from "react-icons/md";
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -20,9 +21,8 @@ const Navbar = () => {
 
   const mainMenu = [
     {
-      label: "Products", 
+      label: "Products",
       subMenu: [
-        
         {
           label: "Skin Care",
 
@@ -65,7 +65,7 @@ const Navbar = () => {
         },
         {
           label: "Body Butter",
-          nestedMenu: [{ title: "Body Butter", path: "/bodybutter", }],
+          nestedMenu: [{ title: "Body Butter", path: "/bodybutter" }],
         },
       ],
     },
@@ -81,17 +81,26 @@ const Navbar = () => {
   };
 
   const handleClose = () => {
-    setAnchorEl(null);
+    setAnchorEl(false);
   };
 
-  const state = useSelector((state) => state.handleCart);
+  //const state = useSelector((state) => state.handleCart);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-Skyblue py-3">
+    <nav
+      className="navbar navbar-expand-lg  py-3"
+      sx={{
+        backgroundColor:
+          "linear-gradient(90deg, rgba(255,255,255,1) 13%, rgba(0,212,255,1) 100%);",
+      }}
+    >
       <div className="container ">
-        <div className="navbar-brand fw-bold fs-4 px-2 logo ms-4">
-          <img src="/Images/logo.png" alt="logo" style={{ height: "50px" }} />
-        </div>
+        <Link to="/">
+          <div className="navbar-brand fw-bold fs-4 px-2 logo ms-4">
+            <img src="/Images/logo.png" alt="logo" style={{ height: "50px" }} />
+          </div>
+        </Link>
+
         {/* <NavLink  className="navbar-brand fw-bold fs-4 px-2" to="/"> React Ecommerce</NavLink> */}
         <button
           className="navbar-toggler mx-2"
@@ -102,7 +111,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon "></span>
         </button>
 
         <div
@@ -110,45 +119,71 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav my-2  text-center">
-            <Button id="basic-button" component={Link} to="/">
+            <Button
+              style={{ color: "black" }}
+              id="basic-button"
+              component={Link}
+              to="/"
+            >
               Home
             </Button>
-            <Button id="basic-button" component={Link} to="/service">
+
+            <Button
+              style={{ color: "black" }}
+              id="basic-button"
+              component={Link}
+              to="/service"
+            >
               Services
             </Button>
+
             {mainMenu.map((menuItem) => (
-              <div key={menuItem.label}>
+              <div key={menuItem.label} className="submenu-items a">
                 <Button
+                  className="products"
+                  style={{ color: "black" }}
                   aria-controls="basic-menu"
                   aria-haspopup="true"
                   onClick={handleSubMenuClick(menuItem.subMenu)}
                 >
-                  {menuItem.label}
+                  <span>
+                    {menuItem.label}
+                    <MdArrowDropDown />
+                  </span>
                 </Button>
               </div>
             ))}
             {isMobileView ? (
               <div>
                 {subMenuItems.map((subMenuItem) => (
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      key={subMenuItem.label}
-                      aria-controls={subMenuItem.label}
-                      id={subMenuItem.label}
-                    >
-                      <Typography>{subMenuItem.label}</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
-                        <Link key={nestedMenuItem} to={nestedMenuItem?.path}>
-                          <MenuItem onClick={handleClose}>
-                            {nestedMenuItem?.title}
-                          </MenuItem>
-                        </Link>
-                      ))}
-                    </AccordionDetails >
-                  </Accordion>
+                  <Box
+                    style={{
+                      display: "flex",
+                      gap: 2,
+                      flexWrap: "wrap",
+                      underline: "hover",
+                    }}
+                  >
+                    <Accordion>
+                      <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        key={subMenuItem.label}
+                        aria-controls={subMenuItem.label}
+                        id={subMenuItem.label}
+                      >
+                        <Typography>{subMenuItem.label}</Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
+                          <Link key={nestedMenuItem} to={nestedMenuItem?.path}>
+                            <MenuItem onClick={handleClose}>
+                              {nestedMenuItem?.title}
+                            </MenuItem>
+                          </Link>
+                        ))}
+                      </AccordionDetails>
+                    </Accordion>
+                  </Box>
                 ))}
               </div>
             ) : (
@@ -157,21 +192,25 @@ const Navbar = () => {
                 anchorEl={anchorEl}
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
-                PopoverClasses={{ width: "100%",  }}
+                PopoverClasses={{ width: "100%" }}
               >
                 <div
                   style={{
                     display: "flex",
                     width: "100vw",
                     justifyContent: "space-around",
-                    textDecoration: "none",
+                    underline: "none",
+                    fontWeight: "bold",
                   }}
                 >
                   {subMenuItems.map((subMenuItem) => (
                     <div
-                      className={styles["submenu-items"]}
+                      className={styles[("submenu-items", "nestedMenuItem")]}
                       onClick={(event) => handleNestedMenuClick(event)}
                       key={subMenuItem.label}
+                      style={{
+                        underline: "none",
+                      }}
                     >
                       {subMenuItem.label}
                       {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
@@ -187,10 +226,20 @@ const Navbar = () => {
               </Menu>
             )}
 
-            <Button id="basic-button" component={Link} to="/contact">
+            <Button
+              style={{ color: "black" }}
+              id="basic-button"
+              component={Link}
+              to="/contact"
+            >
               Contact Us
             </Button>
-            <Button id="basic-button" component={Link} to="/about">
+            <Button
+              style={{ color: "black" }}
+              id="basic-button"
+              component={Link}
+              to="/about"
+            >
               About Us
             </Button>
           </ul>

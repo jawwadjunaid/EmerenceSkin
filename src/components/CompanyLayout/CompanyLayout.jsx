@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
 //import Button from "@mui/material/Button";
@@ -6,36 +6,25 @@ import Button from "@mui/joy/Button";
 const CompanyLayout = () => {
   return (
     <>
-     <div className="cardlayout card-group p-5" style={{color:"#f7f7f7"}}>
-        <div className="card  bg-white m-4 mt-1 me-4"  >
-          <div className="card-body " >
-            <h4 className="text-center m-5">Customer Case</h4>
-            <p className="card-text pb-3  " >
-              <div className="card-img"></div>
-              Voices from customers about Arielcosmetic
-            </p>
-            <CardOverflow>
-              <Button  variant="solid" color="primary" size="lg">
-              <Link to="/customercase">{`Read More >>>`}</Link>
-            </Button>
-            </CardOverflow>
-          </div>
-        </div>
-
+      <div className="cardlayout card-group  m-5" style={{ color: "#f7f7f7" }}>
         <div className="col">
-          <div className="card  p-2 mb-4 bg-white" color="#f7f7f7">
+          <div className="card  p-2 mb-2 bg-white" color="#f7f7f7">
             <img
               src="/Images/shein1.jpeg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Shein From China</h5>
+              <h5 className="card-title">United Kingdom {`(UK)`}</h5>
               <CardOverflow>
-              <Button variant="solid" color="primary" size="lg">
-              <Link to="/acneacre">{`Read More >>>`}</Link>
-            </Button>
-            </CardOverflow>
+                <Button
+                  variant="solid"
+                  style={{ color: "white", backgroundColor: "#2cadcd" }}
+                  size="lg"
+                >
+                  <Link to="/acneacre">{`Read More >>>`}</Link>
+                </Button>
+              </CardOverflow>
             </div>
           </div>
         </div>
@@ -47,12 +36,16 @@ const CompanyLayout = () => {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">KNC From USA</h5>
+              <h5 className="card-title">United State America</h5>
               <CardOverflow>
-              <Button variant="solid" color="primary" size="lg">
-              <Link to="/antiaging">{`Read More >>>`}</Link>
-            </Button>
-            </CardOverflow>
+                <Button
+                  variant="solid"
+                  style={{ color: "white", backgroundColor: "#2cadcd" }}
+                  size="lg"
+                >
+                  <Link to="/antiaging">{`Read More >>>`}</Link>
+                </Button>
+              </CardOverflow>
             </div>
           </div>
         </div>
@@ -64,19 +57,22 @@ const CompanyLayout = () => {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">I From Portugal</h5>
+              <h5 className="card-title">Pakistan</h5>
               <CardOverflow>
-              <Button variant="solid" color="primary" size="lg">
-              <Link to="/cleanser">{`Read More >>>`}</Link>
-            </Button>
-            </CardOverflow>
+                <Button
+                  variant="solid"
+                  style={{ color: "white", backgroundColor: "#2cadcd" }}
+                  size="lg"
+                >
+                  <Link to="/cleanser">{`Read More >>>`}</Link>
+                </Button>
+              </CardOverflow>
             </div>
           </div>
         </div>
       </div>
-    
     </>
   );
-}
+};
 
 export default CompanyLayout;

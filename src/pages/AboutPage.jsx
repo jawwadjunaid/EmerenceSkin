@@ -10,10 +10,11 @@ const AboutPage = () => {
         <img
           src="/Images/aboutus.jpg"
           alt="About Us"
-          className="img-fluid w-100 h-50"
-          style={{ filter: "brightness(20%)" }}
+          className="img-fluid w-100 h-10"
+          
+          style={{ filter: "brightness(20%)",height:"450px" }}
         />
-        <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
+        {/* <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
           <h1 className="text-light ">Guangzhou Ariel</h1>
           <p className="d-flex text-white justify-content-center">
             <Link className="nav-link text-danger" to="/">
@@ -23,7 +24,7 @@ const AboutPage = () => {
             / About
           </p>
           <Modal />
-        </div>
+        </div> */}
       </div>
       <div className="text-center m-5 mt-4">
         <h1>Company Profile</h1>
@@ -81,7 +82,7 @@ const AboutPage = () => {
       <div
         className="d-flex justify-content-between m-5 mt-4"
         style={{
-          background: "url('/Images/mission.jpg')",
+          // background: "url('/Images/mission.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -90,14 +91,14 @@ const AboutPage = () => {
           filter: "brightness(85%)",
         }}
       >
-        <div className="w-25 text-white">
-          <h5 className="">Mission Vision</h5>
+        <div className="w-25 text-black">
+          <h4 className="pt-4">MISSION   VISION</h4>
         </div>
-        <div className="border-start border-primary ps-3 text-white">
+        <div className="border-start border-primary ps-3 text-black">
           <h5>Mission:</h5>
           <p>Help our customers build their brand in the simplest way.</p>
         </div>
-        <div className="border-start border-primary ps-4 text-white">
+        <div className="border-start border-primary ps-4 text-black">
           <h5>Vision:</h5>
           <p>
             To be the leading company in skincare private label by our

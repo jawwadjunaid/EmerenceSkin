@@ -1,115 +1,12 @@
 import React from "react";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
-//import AspectRatio from "@mui/joy/AspectRatio";
-//import Button from "@mui/joy/Button";
-//import Card from "@mui/joy/Card";
 import CardContent from "@mui/joy/CardContent";
-//import CardOverflow from "@mui/joy/CardOverflow";
-//import Chip from '@mui/joy/Chip';
-//import Link from "@mui/joy/Link";
-import Typography from '@mui/joy/Typography';
-//import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
-import './BodyButter.css';
-import BtnModal from "../../../components/Modal/BtnModal";
+import Typography from "@mui/joy/Typography";
 
-
-const BodyButter = () => {
+import BtnModal from "../../components/Modal/BtnModal";
+import "./ProductCardPage.css";
+const ProductCardPage = () => {
   return (
     <>
-    <Navbar />
-    <div>
-      
-        {/* <Card
-          className="col me-5"
-          sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
-        >
-          <CardOverflow>
-            <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="/Images/ProductImages/BodyButter/lavenderbody.jpg"
-                
-                loading="lazy"
-                alt=""
-              />
-            </AspectRatio>
-          </CardOverflow>
-          <CardContent>
-            <Typography level="body-xs">Bluetooth Headset</Typography>
-            <Link
-              href="/"
-              fontWeight="md"
-              color="neutral"
-              textColor="text.primary"
-              overlay
-              endDecorator={<ArrowOutwardIcon />}
-            >
-              Lavender Body Butter
-            </Link>
-
-            <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-            endDecorator={
-              <Chip component="span" size="sm" variant="soft" color="success">
-                Lowest price
-              </Chip>
-            }
-          >
-            2,900 THB
-          </Typography>
-            <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography>
-          </CardContent>
-          <CardOverflow>
-           <Modal/>
-          </CardOverflow>
-        </Card>
-        <Card className="col me-5" sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
-        <CardOverflow>
-          <AspectRatio sx={{ minWidth: 200 }}>
-            <img
-              src="/Images/ProductImages/BodyButter/tangerine.jpg"
-             
-              loading="lazy"
-              alt=""
-            />
-          </AspectRatio>
-        </CardOverflow>
-        <CardContent>
-          <Typography level="body-xs">Bluetooth Headset</Typography>
-          <Link
-            href="/"
-            fontWeight="md"
-            color="neutral"
-            textColor="text.primary"
-            overlay
-            endDecorator={<ArrowOutwardIcon />}
-          >
-            Tangerine and Orange Body Butter
-          </Link>
-  
-          <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-            endDecorator={
-              <Chip component="span" size="sm" variant="soft" color="success">
-                Lowest price
-              </Chip>
-            }
-          >
-            2,900 THB
-          </Typography>
-          <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography>
-        </CardContent>
-        <CardOverflow>
-         <Modal/>
-        </CardOverflow>
-      </Card> */}
-      
       <div className="Container d-flex m-5 justify-content-center align-items-center ">
         <div
           id="carouselExampleIndicators"
@@ -246,10 +143,8 @@ const BodyButter = () => {
           </div>
         </div>
       </div>
-    </div>
-    <Footer />
-  </>
+    </>
   );
-}
+};
 
-export default BodyButter.jsx;
+export default ProductCardPage;

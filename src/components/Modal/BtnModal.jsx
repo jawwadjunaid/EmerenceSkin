@@ -9,14 +9,14 @@ import DialogTitle from '@mui/joy/DialogTitle';
 import DialogContent from '@mui/joy/DialogContent';
 import Stack from '@mui/joy/Stack';
 import { TextareaAutosize } from '@mui/base';
-//import Add from '@mui/icons-material/Add';
-const BtnModal = () => {
+
+const BtnModal = (props) => {
   const [open, setOpen] = React.useState(false);
   return (
    <>
     <Button
-        variant="solid"
-        color="primary"
+        variant="outlined"
+       style={{color:'white',backgroundColor: '#2cadcd', borderColor:'white'}}
        
         onClick={() => setOpen(true)}
       >

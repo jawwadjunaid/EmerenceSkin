@@ -31,22 +31,23 @@ import AntiAging from "./pages/ProductsPages/Skin Care/AntiAging";
 import Cleanser from "./pages/ProductsPages/Skin Care/Cleanser";
 import FormulaDevelopment from "./pages/FormulaAndPackaging/FormulaDevelopment";
 import BodyButter from "./pages/ProductsPages/BodyButter/BodyButter.jsx";
-import FootCare from './pages/ProductsPages/FootCareAndHandCare/FootCare.jsx';
-import LipCare from './pages/ProductsPages/Skin Care/LipCare';
-import Masks from './pages/ProductsPages/Skin Care/Masks';
-import EyeCare from './pages/ProductsPages/Skin Care/EyeCare';
-import GlowEnhancerOils from './pages/ProductsPages/Skin Care/GlowEnhancerOils';
-import HandmadeSoaps from './pages/ProductsPages/Skin Care/HandmadeSoaps';
-import HyperpigmentationMelasma from './pages/ProductsPages/Skin Care/HyperpigmentationMelasma';
-import Emollients from './pages/ProductsPages/Skin Care/Emollients';
-import Moisturisers from './pages/ProductsPages/Skin Care/Moisturisers';
-import Peels from './pages/ProductsPages/Skin Care/Peels';
-import PoreMinimiser from './pages/ProductsPages/Skin Care/PoreMinimiser';
-import ShowerGels from './pages/ProductsPages/Skin Care/ShowerGels';
-import SunCare from './pages/ProductsPages/Skin Care/SunCare';
-import Toner from './pages/ProductsPages/Skin Care/Toner';
-import HairConditionersandMasks from './pages/ProductsPages/HairCare/HairConditionersandMasks';
-import HairGrowthSerum from './pages/ProductsPages/HairCare/HairGrowthSerum';
+import FootCare from "./pages/ProductsPages/FootCareAndHandCare/FootCare.jsx";
+import LipCare from "./pages/ProductsPages/Skin Care/LipCare";
+import Masks from "./pages/ProductsPages/Skin Care/Masks";
+import EyeCare from "./pages/ProductsPages/Skin Care/EyeCare";
+import GlowEnhancerOils from "./pages/ProductsPages/Skin Care/GlowEnhancerOils";
+import HandmadeSoaps from "./pages/ProductsPages/Skin Care/HandmadeSoaps";
+import HyperpigmentationMelasma from "./pages/ProductsPages/Skin Care/HyperpigmentationMelasma";
+import Emollients from "./pages/ProductsPages/Skin Care/Emollients";
+import Moisturisers from "./pages/ProductsPages/Skin Care/Moisturisers";
+import Peels from "./pages/ProductsPages/Skin Care/Peels";
+import PoreMinimiser from "./pages/ProductsPages/Skin Care/PoreMinimiser";
+import ShowerGels from "./pages/ProductsPages/Skin Care/ShowerGels";
+import SunCare from "./pages/ProductsPages/Skin Care/SunCare";
+import Toner from "./pages/ProductsPages/Skin Care/Toner";
+import HairConditionersandMasks from "./pages/ProductsPages/HairCare/HairConditionersandMasks";
+import HairGrowthSerum from "./pages/ProductsPages/HairCare/HairGrowthSerum";
+import ProductCardPage from "./pages/ProductCardPage/ProductCardPage";
 
 //import MendelicAcidSerum from './pages/ProductsPages/SubSkinCare/AcneAcreProductPage/MendelicAcidSerum.jsx';
 
@@ -74,25 +75,30 @@ root.render(
         <Route path="/cleansers" element={<Cleanser />} />
         <Route path="/formuladevelopment" element={<FormulaDevelopment />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/bodybutter" element={<BodyButter/>} />
-        <Route path="/footcare" element={<FootCare/>}/>
-        <Route path="/lipcare" element={<LipCare/>}/>
-        <Route path="/masks" element={<Masks/>}/>
-        <Route path="/eyecare" element={<EyeCare/>}/>
-        <Route path="/glowenhanceroils" element={<GlowEnhancerOils/>}/>
-        <Route path="/handmadesoaps" element={<HandmadeSoaps/>}/>
-        <Route path="/hyperpigmentation" element={<HyperpigmentationMelasma/>}/>
-        <Route path="/emollients" element={<Emollients/>}/>
-        <Route path="/moisturisers" element={<Moisturisers/>}/>
-        <Route path="/peels" element={<Peels/>}/>
-        <Route path="/poreminimiser" element={<PoreMinimiser/>}/>
-        <Route path="/showergels" element={<ShowerGels/>}/>
-        <Route path="/suncare" element={<SunCare/>}/>
-        <Route path="/toner" element={<Toner/>}/>
-        <Route path="/hairconditionersandmasks" element={<HairConditionersandMasks/>}/>
-        <Route path="/hairgrowthserum" element={<HairGrowthSerum/>}/>
-        
-
+        <Route path="/bodybutter" element={<BodyButter />} />
+        <Route path="/footcare" element={<FootCare />} />
+        <Route path="/lipcare" element={<LipCare />} />
+        <Route path="/masks" element={<Masks />} />
+        <Route path="/eyecare" element={<EyeCare />} />
+        <Route path="/glowenhanceroils" element={<GlowEnhancerOils />} />
+        <Route path="/handmadesoaps" element={<HandmadeSoaps />} />
+        <Route
+          path="/hyperpigmentation"
+          element={<HyperpigmentationMelasma />}
+        />
+        <Route path="/emollients" element={<Emollients />} />
+        <Route path="/moisturisers" element={<Moisturisers />} />
+        <Route path="/peels" element={<Peels />} />
+        <Route path="/poreminimiser" element={<PoreMinimiser />} />
+        <Route path="/showergels" element={<ShowerGels />} />
+        <Route path="/suncare" element={<SunCare />} />
+        <Route path="/toner" element={<Toner />} />
+        <Route
+          path="/hairconditionersandmasks"
+          element={<HairConditionersandMasks />}
+        />
+        <Route path="/hairgrowthserum" element={<HairGrowthSerum />} />
+        <Route path="/productCard" element={<ProductCardPage/>}></Route>
       </Routes>
     </Provider>
   </BrowserRouter>
