@@ -8,7 +8,8 @@ const AboutPage = () => {
       <Navbar />
       <div className="position-relative  p-0 m-0">
         <img
-          src="/Images/aboutus.jpg"
+          loading="lazy"
+          srcSet="/Images/aboutus.jpg"
           alt="About Us"
           className="img-fluid w-100 h-10"
           

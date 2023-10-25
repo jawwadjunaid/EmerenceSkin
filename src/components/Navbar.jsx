@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-//import { useSelector } from "react-redux";
+
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -85,8 +85,6 @@ const Navbar = () => {
     setAnchorEl(false);
   };
 
-  //const state = useSelector((state) => state.handleCart);
-
   return (
     <nav
       className="navbar navbar-expand-lg  py-3"
@@ -102,7 +100,6 @@ const Navbar = () => {
           </div>
         </Link>
 
-        {/* <NavLink  className="navbar-brand fw-bold fs-4 px-2" to="/"> React Ecommerce</NavLink> */}
         <button
           className="navbar-toggler mx-2"
           type="button"
@@ -160,9 +157,8 @@ const Navbar = () => {
                   <Box
                     style={{
                       display: "flex",
-                      gap: 2,
+                      gap: 4,
                       flexWrap: "wrap",
-                      underline: "hover",
                     }}
                   >
                     <Accordion>
@@ -200,7 +196,7 @@ const Navbar = () => {
                     display: "flex",
                     width: "100vw",
                     justifyContent: "space-around",
-                    underline: "none",
+                  
                     fontWeight: "bold",
                   }}
                 >
@@ -209,9 +205,6 @@ const Navbar = () => {
                       className={styles[("submenu-items", "nestedMenuItem")]}
                       onClick={(event) => handleNestedMenuClick(event)}
                       key={subMenuItem.label}
-                      style={{
-                        underline: "none",
-                      }}
                     >
                       {subMenuItem.label}
                       {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (

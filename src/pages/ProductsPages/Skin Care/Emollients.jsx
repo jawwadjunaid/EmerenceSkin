@@ -3,7 +3,7 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
-
+import Carousel from "react-bootstrap/Carousel";
 import BtnModal from "../../../components/Modal/BtnModal";
 import './Emollients.css';
 const Emollients = () => {
@@ -14,73 +14,21 @@ const Emollients = () => {
     
 
       <div className="Container d-flex m-5 justify-content-center align-items-center ">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-indicators">
-            <button
-              style={{ color: "black" }}
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              style={{ color: "black" }}
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              style={{ color: "black" }}
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                src="/Images/ProductImages/Emollientsdrgandflaky.jpg/"
-                className="d-block w-100"
-                alt="Sl-1"
-              />
-            </div>
+      
+
+        <div>
+            <Carousel>
+              <Carousel.Item>
+                <img loading='lazy'
+                  srcSet="/Images/ProductImages/Emollientsdrgandflaky.jpg"
+                  className="d-block w-100"
+                  alt="Slide 1"
+                />
+              </Carousel.Item>
             
+            </Carousel>
           </div>
-          <button
-            style={{ color: "black" }}
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            style={{ color: "black" }}
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+
         <div className="productDetails" style={{ marginLeft: "80px" }}>
           <CardContent>
             <Typography

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal/BtnModal";
 
@@ -11,12 +11,13 @@ const Services = () => {
         <Navbar />
         <div className="position-relative p-0 m-0">
           <img
+          loading="lazy"
             src="Images/services.jpg"
             alt="Services"
             className="img-fluid w-100 h-10"
             style={{ filter: "brightness(70%)", height:"450px" }}
           />
-          <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
+          {/* <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
             <h1 className="text-light ">
               Skin Care Manufacturing Total Solutions
             </h1>
@@ -29,7 +30,7 @@ const Services = () => {
               / Services
             </p>
             <Modal />
-          </div>
+          </div> */}
         </div>
         <div className="text-center m-5">
           <h2 className="fw-bold">

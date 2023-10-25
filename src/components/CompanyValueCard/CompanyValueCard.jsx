@@ -4,15 +4,12 @@ import CardContent from "@mui/joy/CardContent";
 import Link from "@mui/joy/Link";
 import Card from "@mui/joy/Card";
 
-import Typography from '@mui/joy/Typography';
+import Typography from "@mui/joy/Typography";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
-
-
 
 const CompanyValueCard = () => {
   return (
-   <>
-         
+    <>
       <div className="row row-cols-1 row-cols-md-3 g-2 m-4 ps-5 justify-content-center ">
         <Card
           className="col me-5 "
@@ -21,15 +18,14 @@ const CompanyValueCard = () => {
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
               <img
-                src="/Images/823.jpg"
                 loading="lazy"
+                srcSet="/Images/823.jpg"
                 alt=""
                 to="/facewash"
               />
             </AspectRatio>
           </CardOverflow>
           <CardContent>
-           
             <Link
               href="/facewash"
               fontWeight="md"
@@ -41,77 +37,13 @@ const CompanyValueCard = () => {
               20Years+
             </Link>
 
-            <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-            // endDecorator={
-            //   <Chip component="span" size="sm" variant="soft" color="success">
-            //     Lowest price
-            //   </Chip>
-            // }
-          >
-            Manufacturing Experience
-          </Typography>
-            {/* <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography> */}
+            <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
+              Manufacturing Experience
+            </Typography>
           </CardContent>
-          <CardOverflow>
-            {/* <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button> */}
-          </CardOverflow>
+          <CardOverflow></CardOverflow>
         </Card>
-        
-        {/* <Card
-          className="col me-5"
-          sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
-        >
-          <CardOverflow>
-            <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286"
-                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
-                loading="lazy"
-                alt=""
-              />
-            </AspectRatio>
-          </CardOverflow>
-          <CardContent>
-            <Typography level="body-xs">Bluetooth Headset</Typography>
-            <Link
-              href="#product-card"
-              fontWeight="md"
-              color="neutral"
-              textColor="text.primary"
-              overlay
-              endDecorator={<ArrowOutwardIcon />}
-            >
-              40,000M
-            </Link>
 
-            <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-             endDecorator={
-               <Chip component="span" size="sm" variant="soft" color="success">
-                 Lowest price
-               </Chip>
-            }
-          >
-            Factory Area
-          </Typography>
-            <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography>
-          </CardContent>
-          <CardOverflow>
-            <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button>
-          </CardOverflow>
-        </Card>  */}
-        
         <Card
           className="col me-5"
           sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
@@ -119,7 +51,7 @@ const CompanyValueCard = () => {
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
               <img
-                src="/Images/194.jpg"
+                srcSet="/Images/194.jpg"
                 loading="lazy"
                 alt=""
                 to="/shampoo"
@@ -127,7 +59,6 @@ const CompanyValueCard = () => {
             </AspectRatio>
           </CardOverflow>
           <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
             <Link
               href="/shampoo"
               fontWeight="md"
@@ -139,43 +70,22 @@ const CompanyValueCard = () => {
               10K Level
             </Link>
 
-            <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-            // endDecorator={
-            //   <Chip component="span" size="sm" variant="soft" color="success">
-            //     Lowest price
-            //   </Chip>
-            // }
-          >
-            GMPC Production Lines
-          </Typography>
-            {/* <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography> */}
+            <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
+              GMPC Production Lines
+            </Typography>
           </CardContent>
-          <CardOverflow>
-            {/* <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button> */}
-          </CardOverflow>
-        </Card> 
-        
+        </Card>
+
         <Card
           className="col me-5"
           sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}
         >
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                src="/Images/p3.jpg"
-                loading="lazy"
-                alt=""
-              />
+              <img loading="lazy" srcSet="/Images/p3.jpg" alt="" />
             </AspectRatio>
           </CardOverflow>
           <CardContent>
-            {/* <Typography level="body-xs">Bluetooth Headset</Typography> */}
             <Link
               href="#product-card"
               fontWeight="md"
@@ -187,32 +97,14 @@ const CompanyValueCard = () => {
               300 +
             </Link>
 
-            <Typography
-            level="title-lg"
-            sx={{ mt: 1, fontWeight: 'xl' }}
-            // endDecorator={
-            //   <Chip component="span" size="sm" variant="soft" color="success">
-            //     Lowest price
-            //   </Chip>
-            // }
-          >
-            Specialized Workers
-          </Typography>
-            {/* <Typography level="body-sm">
-            (Only <b>7</b> left in stock!)
-          </Typography> */}
+            <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
+              Specialized Workers
+            </Typography>
           </CardContent>
-          <CardOverflow>
-            {/* <Button variant="solid" color="primary" size="lg">
-              <Link>Get Quotes</Link>
-            </Button> */}
-          </CardOverflow>
         </Card>
-      
       </div>
-   
-   </>
+    </>
   );
-}
+};
 
 export default CompanyValueCard;

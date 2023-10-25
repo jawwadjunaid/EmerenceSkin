@@ -9,6 +9,7 @@ const ContactPage = () => {
       <div
         className="position-relative"
         style={{
+          loading:"lazy",
           backgroundImage: `url('/Images/ContactUs.jpg')`, // Replace with your background image
           backgroundSize: "cover",
           backgroundPosition: "center",

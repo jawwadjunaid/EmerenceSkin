@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const CompantDesign = () => {
   return (
-  <>
-  <div className="row row-cols-1 row-cols-md-2  m-2 g-4  p-3 mb-5 bg-body rounded">
+    <>
+      <div className="row row-cols-1 row-cols-md-2  m-2 g-4  p-3 mb-5 bg-body rounded">
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
             <img
-              src="/Images/favcons/cam.png"
+              loading="lazy"
+              srcSet="/Images/favcons/cam.png"
               className="card-img-left logo-img"
               alt="Logo"
               style={{ height: "70px", width: "70px" }}
@@ -22,11 +23,12 @@ const CompantDesign = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
             <img
-              src="/Images/favcons/callcenter.png"
+              loading="lazy"
+              srcSet="/Images/favcons/callcenter.png"
               className="card-img-left logo-img"
               alt="Logo"
               style={{ height: "70px", width: "70px" }}
@@ -42,8 +44,8 @@ const CompantDesign = () => {
           </div>
         </div>
       </div>
-  </>
+    </>
   );
-}
+};
 
 export default CompantDesign;

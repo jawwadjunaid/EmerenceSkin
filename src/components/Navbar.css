@@ -14,18 +14,12 @@
   }
   
   /* Remove underline from nested menu items */
-  .submenu-items a:link,
-  .submenu-items a:visited {
-    text-decoration: none;
-   
-  }
+ 
 .submenu-items a:hover {
     background-color: #f0f0f0; /* Customize the background color on hover */
     color: #333; /* Customize the text color on hover */
   }
-  nestedMenuItem{
-    text-decoration: none;
-  }
+  
 
 
   .navbar-nav {

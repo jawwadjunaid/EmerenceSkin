@@ -1,19 +1,15 @@
-
 import React from 'react';
 import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
-//import Button from "@mui/material/Button";
 import Button from "@mui/joy/Button";
-import { styled, Box } from '@mui/system';
-import clsx from 'clsx';
 const CompanyDevelopment = () => {
   return (
     <>
      <div className="row row-cols- row-cols-md-2 g-4 mt-4  mx-5 s p-3 mb-5 bg-body rounded">
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
-            <img
-              src="/Images/favcons/lptp.png"
+            <img loading='lazy'
+              srcSet="/Images/favcons/lptp.png"
               style={{ height: "70px", width: "70px" }}
               className="card-img-top"
               alt="Logo"
@@ -37,8 +33,8 @@ const CompanyDevelopment = () => {
         </div>
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
-            <img
-              src="/Images/favcons/package.png"
+            <img loading='lazy'
+              srcSet="/Images/favcons/package.png"
               style={{ height: "70px", width: "70px" }}
               className="card-img-top logo-img"
               alt="Logo"

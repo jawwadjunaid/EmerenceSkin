@@ -8,8 +8,8 @@ const FormulaDevelopment = () => {
     <div>
         <Navbar/>
     <div className="position-relative  p-0 m-0">
-        <img
-          src="/Images/formuladev.jpg"
+        <img loading='lazy'
+          srcSet="/Images/formuladev.jpg"
           alt="About Us"
           className="img-fluid w-100 h-50"
           style={{ filter: "brightness(60%)" }}

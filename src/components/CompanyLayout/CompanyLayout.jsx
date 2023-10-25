@@ -1,7 +1,7 @@
 import React from "react";
 import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
-//import Button from "@mui/material/Button";
+
 import Button from "@mui/joy/Button";
 const CompanyLayout = () => {
   return (
@@ -10,7 +10,8 @@ const CompanyLayout = () => {
         <div className="col">
           <div className="card  p-2 mb-2 bg-white" color="#f7f7f7">
             <img
-              src="/Images/shein1.jpeg"
+              loading="lazy"
+              srcSet="/Images/shein1.jpeg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
             />
@@ -31,7 +32,8 @@ const CompanyLayout = () => {
         <div className="col">
           <div className="card  p-2 mb-4 bg-white">
             <img
-              src="/Images/KNC.jpeg"
+              loading="lazy"
+              srcSet="/Images/KNC.jpeg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
             />
@@ -52,7 +54,8 @@ const CompanyLayout = () => {
         <div className="col">
           <div className="card  p-2 mb-4 bg-white">
             <img
-              src="/Images/portugal.jpeg"
+              loading="lazy"
+              srcSet="/Images/portugal.jpeg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
             />

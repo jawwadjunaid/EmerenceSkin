@@ -3,7 +3,7 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
-
+import Carousel from "react-bootstrap/Carousel";
 import BtnModal from "../../../components/Modal/BtnModal";
 import "./Peels.css";
 const Peels = () => {
@@ -12,85 +12,30 @@ const Peels = () => {
       <Navbar />
       <div>
         <div className="Container d-flex m-5 justify-content-center align-items-center ">
-          <div
-            id="carouselExampleIndicators"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-indicators">
-              <button
-                style={{ color: "black" }}
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                className="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                style={{ color: "black" }}
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                style={{ color: "black" }}
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  src="/Images/ProductIanges/Peels/30%AHA.jpg"
+          <div>
+            <Carousel>
+              <Carousel.Item>
+                <img loading='lazy'
+                  srcSet="/Images/ProductIanges/Peels/30%AHA.jpg"
                   className="d-block w-100"
-                  alt="Sl-1"
+                  alt="Slide 1"
                 />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="/Images/ProductIanges/Peels/GlycolicAcid.jpg"
+              </Carousel.Item>
+              <Carousel.Item>
+                <img loading='lazy'
+                  srcSet="/Images/ProductIanges/Peels/GlycolicAcid.jpg"
                   className="d-block w-100"
-                  alt="sl-2"
+                  alt="Slide 2"
                 />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="/Images/ProductIanges/Peels/TCA Peels.jpg"
+              </Carousel.Item>
+              <Carousel.Item>
+                <img loading='lazy'
+                  srcSet="/Images/ProductIanges/Peels/TCA Peels.jpg"
                   className="d-block w-100"
-                  alt="sl-3"
+                  alt="Slide 2"
                 />
-              </div>
-            </div>
-            <button
-              style={{ color: "black" }}
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              style={{ color: "black" }}
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+              </Carousel.Item>
+            </Carousel>
           </div>
           <div className="productDetails" style={{ marginLeft: "80px" }}>
             <CardContent>
