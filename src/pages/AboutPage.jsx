@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
-import { Link } from "react-router-dom";
+
 import Modal from "../components/Modal/BtnModal";
 const AboutPage = () => {
   return (
@@ -81,7 +81,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div
-        className="d-flex justify-content-between m-5 mt-4"
+        className="d-flex justify-content-between m-4 mt-4 px-3 pe-2 ms-2"
         style={{
           // background: "url('/Images/mission.jpg')",
           backgroundSize: "cover",
@@ -92,10 +92,10 @@ const AboutPage = () => {
           filter: "brightness(85%)",
         }}
       >
-        <div className="w-25 text-black">
-          <h4 className="pt-4">MISSION   VISION</h4>
+        <div className="w-25 text-black me-2">
+          <h4 className="pt-4 me-5 ">MISSION   VISION</h4>
         </div>
-        <div className="border-start border-primary ps-3 text-black">
+        <div className="border-start border-primary ps-4 pe-3 text-black ">
           <h5>Mission:</h5>
           <p>Help our customers build their brand in the simplest way.</p>
         </div>
