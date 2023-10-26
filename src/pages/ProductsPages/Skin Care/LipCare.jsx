@@ -19,14 +19,14 @@ const LipCare = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductImages/Hyperpigmentation/Healinglavender.jpg"
+                  srcSet="/Images/ProductImages/Lipcare/Healinglavender.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductImages/Hyperpigmentation/LipCareDark.jpg"
+                  srcSet="/Images/ProductImages/Lipcare/LipCareDark.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />

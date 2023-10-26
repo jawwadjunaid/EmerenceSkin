@@ -82,7 +82,7 @@ const CompanyValueCard = () => {
         >
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
-              <img loading="lazy" srcSet="/Images/p3.jpg" alt="" />
+              <img loading="lazy" srcSet="/Images/823.jpg" alt="" />
             </AspectRatio>
           </CardOverflow>
           <CardContent>

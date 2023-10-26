@@ -16,23 +16,23 @@ const Peels = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Peels/30%AHA.jpg"
+                  srcSet="/Images/ProductImages/Peels/AHA.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Peels/GlycolicAcid.jpg"
+                  srcSet="/Images/ProductImages/Peels/GlycolicAcid.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Peels/TCA Peels.jpg"
+                  srcSet="/Images/ProductImages/Peels/TCAPeels.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 3"
                 />
               </Carousel.Item>
             </Carousel>

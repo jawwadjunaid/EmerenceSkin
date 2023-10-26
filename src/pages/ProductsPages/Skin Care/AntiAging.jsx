@@ -17,37 +17,37 @@ const AntiAging = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/AntiAging/Hydroxysomes.jpg"
+                  srcSet="/Images/ProductImages/AntiAging/Hydroxysomes.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/AntiAging/LupineExtract.jpg"
+                  srcSet="/Images/ProductImages/AntiAging/LupineExtract.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/AntiAging/Matryxl.jpg"
+                  srcSet="/Images/ProductImages/AntiAging/Matryxl.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 3"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcset="/Images/ProductIanges/AntiAging/Retinol.jpg"
+                  srcset="/Images/ProductImages/AntiAging/Retinol.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 4"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  srcSet="/Images/ProductIanges/AntiAging/VitaminACE.jpg"
+                  srcSet="/Images/ProductImages/AntiAging/VitaminACE.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 5"
                 />
               </Carousel.Item>
             </Carousel>

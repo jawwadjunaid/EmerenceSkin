@@ -13,13 +13,13 @@ const Slider =()=>{
     <div>
     <Carousel>
       <Carousel.Item>
-        <img srcSet="/Images/bg-img2.jpg" loading='lazy' className="d-block w-100" alt="Slide 1" />
+        <img srcSet="/Images/bg-img2-min.jpg" loading='lazy' className="d-block w-100" alt="Slide 1" />
         <div  className="position-absolute top-50 bottom-100 start-50 translate-middle text-center w-100 ">
          <Modal/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img srcSet="/Images/bg-img1.jpg" loading='lazy' className="d-block w-100" alt="Slide 2" />
+        <img srcSet="/Images/bg-img1-min.jpg" loading='lazy' className="d-block w-100" alt="Slide 2" />
         <div  className="position-absolute top-50 bottom-100 start-50 translate-middle text-center w-100 ">
          <Modal/>
         </div>

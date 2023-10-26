@@ -20,23 +20,23 @@ const Moisturisers = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Moisturisers/DrySkinUrea.jpg"
+                  srcSet="/Images/ProductImages/Moisturisers/DrySkinUrea.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Moisturisers/Gel Moisturiser.jpg"
+                  srcSet="/Images/ProductImages/Moisturisers/GelMoisturiser.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Moisturisers/OilySkin.jpg"
+                  srcSet="/Images/ProductImages/Moisturisers/OilySkin.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 3"
                 />
               </Carousel.Item>
               

@@ -18,23 +18,23 @@ const EyeCare = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Eyecare/Peptide.jpg"
+                  srcSet="/Images/ProductImages/Eyecare/Peptide.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Eyecare/Saffron.jpg"
+                  srcSet="/Images/ProductImages/Eyecare/Saffron.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Eyecare/VitaminK.jpg"
+                  srcSet="/Images/ProductImages/Eyecare/VitaminK.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 3"
                 />
               </Carousel.Item>
              

@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className="position-relative  p-0 m-0">
         <img
           loading="lazy"
-          srcSet="/Images/aboutus.jpg"
+          srcSet="/Images/Aboutus-min.jpg"
           alt="About Us"
           className="img-fluid w-100 h-10"
           

@@ -1,6 +1,0 @@
-@media (max-width: 768px) {
-    /* Add your responsive styles here */
-    .Container {
-      flex-direction: column; /* Stack elements vertically on mobile screens */
-    }
-  }

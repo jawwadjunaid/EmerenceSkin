@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -33,10 +32,7 @@ const Navbar = () => {
             { title: "Pore Minimiser", path: "/poreminimiser" },
             { title: "Peels", path: "/peels" },
             { title: "Moisturisers", path: "/moisturisers" },
-            {
-              title: "Hyperpigmentation & Melasma",
-              path: "/hyperpigmentation",
-            },
+            { title: "Hyperpigmentation & Melasma", path: "/hyperpigmentation"},
             { title: "Anti Aging", path: "/antiaging" },
             { title: "Glow Enhancer Oils", path: "/glowenhanceroils" },
             { title: "Sun Care", path: "/suncare" },
@@ -139,30 +135,25 @@ const Navbar = () => {
               <div key={menuItem.label} className="submenu-items a">
                 <Button
                   className="products"
-                  style={{ color: "black" }}
+                  style={{ color: "black",justifyContent:"center" }}
                   aria-controls="basic-menu"
-                  aria-haspopup="true"
+                  aria-haspopup="false"
                   onClick={handleSubMenuClick(menuItem.subMenu)}
                 >
-                  <span>
+                  
                     {menuItem.label}
                     <MdArrowDropDown />
-                  </span>
+                  
                 </Button>
               </div>
             ))}
             {isMobileView ? (
               <div>
                 {subMenuItems.map((subMenuItem) => (
-                  <Box
-                    style={{
-                      display: "flex",
-                      gap: 4,
-                      flexWrap: "wrap",
-                    }}
-                  >
+                  <Box>
                     <Accordion>
                       <AccordionSummary
+                      style={{textUnderlinePosition:"none", color:"black"}}
                         expandIcon={<ExpandMoreIcon />}
                         key={subMenuItem.label}
                         aria-controls={subMenuItem.label}

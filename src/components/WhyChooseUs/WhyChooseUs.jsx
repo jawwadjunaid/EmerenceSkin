@@ -4,16 +4,16 @@ const WhyChooseUs = () => {
   return (
     <>
     
-    <div className="text-center m-5 ">
+    <div className="text-center m-4 ">
         <h1 className="fw-bold">Why Choose Us?</h1>
         <p className="fw-light">We Create Value To Your Business</p>
       </div>
 
       <div>
         <div>
-          <div className="row row-cols-1 row-cols-md-4 mt-4 m-4 g-4  p-3 mb-5 bg-body rounded">
+          <div className="row row-cols-1 row-cols-md-4 mt-2 m-2 g-4  p-3 mb-5 bg-body rounded">
             <div className="col">
-              <div className="card shadow p-4 mb-5 bg-body rounded">
+              <div className="card shadow p-4 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/funnel.png"
                   style={{ height: "70px", width: "70px" }}
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow p-4 mb-5 bg-body rounded">
+              <div className="card shadow p-4 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/pckge.png"
                   style={{ height: "70px", width: "70px" }}
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow p-4 mb-5 bg-body rounded">
+              <div className="card shadow p-4 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/funnel1.png"
                   style={{ height: "70px", width: "70px" }}
@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow p-2 mb-5 bg-body rounded">
+              <div className="card shadow p-2 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/Q.png"
                   style={{ height: "70px", width: "70px" }}

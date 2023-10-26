@@ -30,7 +30,7 @@ import AcneAcre from "./pages/ProductsPages/Skin Care/AcneAcre";
 import AntiAging from "./pages/ProductsPages/Skin Care/AntiAging";
 import Cleanser from "./pages/ProductsPages/Skin Care/Cleanser";
 import FormulaDevelopment from "./pages/FormulaAndPackaging/FormulaDevelopment";
-import BodyButter from "./pages/ProductsPages/BodyButter/BodyButter.jsx";
+import BodyButter from "./pages/ProductsPages/BodyButters/BodyButter.jsx";
 import FootCare from "./pages/ProductsPages/FootCareAndHandCare/FootCare.jsx";
 import LipCare from "./pages/ProductsPages/Skin Care/LipCare";
 import Masks from "./pages/ProductsPages/Skin Care/Masks";
@@ -49,7 +49,7 @@ import HairConditionersandMasks from "./pages/ProductsPages/HairCare/HairConditi
 import HairGrowthSerum from "./pages/ProductsPages/HairCare/HairGrowthSerum";
 import ProductCardPage from "./pages/ProductCardPage/ProductCardPage";
 
-//import MendelicAcidSerum from './pages/ProductsPages/SubSkinCare/AcneAcreProductPage/MendelicAcidSerum.jsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

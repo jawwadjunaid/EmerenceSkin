@@ -16,21 +16,21 @@ const Cleanser = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Cleansers/CreamAHA.jpg"
+                  srcSet="/Images/ProductImages/Cleansers/CreamAHA.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Cleansers/CreamBHA.jpg"
+                  srcSet="/Images/ProductImages/Cleansers/CreamBHA.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/Cleansers/CreamSQUA.jpg"
+                  srcSet="/Images/ProductImages/Cleansers/CreamSQUA.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />

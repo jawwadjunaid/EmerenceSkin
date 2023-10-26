@@ -18,21 +18,21 @@ const PoreMinimiser = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/PoreMinimiser/B3 PCA serum.jpg"
+                  srcSet="/Images/ProductImages/PoreMinimiser/B3PCAserum.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/PoreMinimiser/Glycolicacid.jpg"
+                  srcSet="/Images/ProductImages/PoreMinimiser/Glycolicacid.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductIanges/PoreMinimiser/HyalurnicAcid.jpg"
+                  srcSet="/Images/ProductImages/PoreMinimiser/HyalurnicAcid.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />

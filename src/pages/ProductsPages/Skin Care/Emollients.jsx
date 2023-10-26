@@ -20,7 +20,7 @@ const Emollients = () => {
             <Carousel>
               <Carousel.Item>
                 <img loading='lazy'
-                  srcSet="/Images/ProductImages/Emollientsdrgandflaky.jpg"
+                  srcSet="/Images/ProductImages/Emollients/drgandflaky.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
