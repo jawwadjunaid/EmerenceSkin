@@ -1,28 +1,32 @@
-.submenu{
-    width: 100%;
-    left: 0;
-    font-weight:200;
-    
+.submenu {
+  width: 100%;
+  left: 0;
+  font-weight: 200;
 }
-.submenu-items  {
-    font-weight: bold;
+.submenu-items {
+  font-weight: bold;
+}
+.submenu-link {
+  text-decoration: none; /* Remove underline from nested menu items */
+  color: #333;
+}
 
-  }
-  .submenu-link {
-    text-decoration: none; /* Remove underline from nested menu items */
-    color: #333;
-  }
-  
-  /* Remove underline from nested menu items */
- 
+/* Remove underline from nested menu items */
+
 .submenu-items a:hover {
-    background-color: #f0f0f0; /* Customize the background color on hover */
-    color: #333; /* Customize the text color on hover */
-  }
-  
+  background-color: #f0f0f0; /* Customize the background color on hover */
+  color: #333; /* Customize the text color on hover */
+}
 
+.MuiAccordionDetails-root a {
+  text-decoration: none;
+}
 
-  .navbar-nav {
-    text-align: center;
-    color: aqua;
-  }
+.MuiList-root a {
+  text-decoration: none;
+}
+
+.navbar-nav {
+  text-align: center;
+  color: aqua;
+}

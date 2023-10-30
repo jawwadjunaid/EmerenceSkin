@@ -32,7 +32,10 @@ const Navbar = () => {
             { title: "Pore Minimiser", path: "/poreminimiser" },
             { title: "Peels", path: "/peels" },
             { title: "Moisturisers", path: "/moisturisers" },
-            { title: "Hyperpigmentation & Melasma", path: "/hyperpigmentation"},
+            {
+              title: "Hyperpigmentation & Melasma",
+              path: "/hyperpigmentation",
+            },
             { title: "Anti Aging", path: "/antiaging" },
             { title: "Glow Enhancer Oils", path: "/glowenhanceroils" },
             { title: "Sun Care", path: "/suncare" },
@@ -69,6 +72,10 @@ const Navbar = () => {
   ];
 
   const handleSubMenuClick = (subMenu) => (event) => {
+    if(subMenuItems.length > 0) {
+      setSubMenuItems([])
+      return
+    }
     setSubMenuItems(subMenu);
     setAnchorEl(event.currentTarget);
   };
@@ -135,25 +142,29 @@ const Navbar = () => {
               <div key={menuItem.label} className="submenu-items a">
                 <Button
                   className="products"
-                  style={{ color: "black",justifyContent:"center" }}
+                  style={{
+                    color: "black",
+                    justifyContent: "center",
+                    paddingLeft: "25px",
+                  }}
                   aria-controls="basic-menu"
                   aria-haspopup="false"
                   onClick={handleSubMenuClick(menuItem.subMenu)}
                 >
-                  
-                    {menuItem.label}
-                    <MdArrowDropDown />
-                  
+                  {menuItem.label}
+                  <MdArrowDropDown />
                 </Button>
               </div>
             ))}
-            {isMobileView ? (
+            {isMobileView && subMenuItems.length > 0 ? (
               <div>
                 {subMenuItems.map((subMenuItem) => (
                   <Box>
                     <Accordion>
                       <AccordionSummary
-                      style={{textUnderlinePosition:"none", color:"black"}}
+                        style={{
+                          color: "black",
+                        }}
                         expandIcon={<ExpandMoreIcon />}
                         key={subMenuItem.label}
                         aria-controls={subMenuItem.label}
@@ -164,7 +175,9 @@ const Navbar = () => {
                       <AccordionDetails>
                         {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
                           <Link key={nestedMenuItem} to={nestedMenuItem?.path}>
-                            <MenuItem onClick={handleClose}>
+                            <MenuItem
+                              style={{ color: "black", textDecoration: "none" }}
+                            >
                               {nestedMenuItem?.title}
                             </MenuItem>
                           </Link>
@@ -181,13 +194,14 @@ const Navbar = () => {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
                 PopoverClasses={{ width: "100%" }}
+                style={{ color: "black", textUnderlinePosition: "none" }}
               >
                 <div
                   style={{
                     display: "flex",
                     width: "100vw",
                     justifyContent: "space-around",
-                  
+
                     fontWeight: "bold",
                   }}
                 >
@@ -200,7 +214,10 @@ const Navbar = () => {
                       {subMenuItem.label}
                       {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
                         <Link key={nestedMenuItem} to={nestedMenuItem?.path}>
-                          <MenuItem onClick={handleClose}>
+                          <MenuItem
+                            onClose={handleClose}
+                            style={{ color: "black"}}
+                          >
                             {nestedMenuItem?.title}
                           </MenuItem>
                         </Link>

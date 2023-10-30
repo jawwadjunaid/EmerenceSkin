@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
-
+import {Link} from "react-router-dom";
 import Modal from "../components/Modal/BtnModal";
 const AboutPage = () => {
   return (
@@ -9,23 +9,23 @@ const AboutPage = () => {
       <div className="position-relative  p-0 m-0">
         <img
           loading="lazy"
-          srcSet="/Images/Aboutus-min.jpg"
+          srcSet="/Images/AboutuS.jpg"
           alt="About Us"
           className="img-fluid w-100 h-10"
           
-          style={{ filter: "brightness(20%)",height:"450px" }}
+          style={{ height:"450px" }}
         />
-        {/* <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
-          <h1 className="text-light ">Guangzhou Ariel</h1>
-          <p className="d-flex text-white justify-content-center">
+        <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
+          <h1 style={{fontWeight:"bold", color:"#461111"}}  >EMERENCE SKIN CARE</h1>
+          <p className="d-flex text-black justify-content-center">
             <Link className="nav-link text-danger" to="/">
               {" "}
               Home
-            </Link>{" "}
+            </Link >{" "}
             / About
           </p>
           <Modal />
-        </div> */}
+        </div>
       </div>
       <div className="text-center m-5 mt-4">
         <h1>Company Profile</h1>

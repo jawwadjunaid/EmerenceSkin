@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal/BtnModal";
 
@@ -10,31 +10,32 @@ const Services = () => {
       <div>
         <Navbar />
         <div className="position-relative p-0 m-0">
-          <img
-            loading="lazy"
-            srcSet="/Images/services-min.jpg"
+          <img 
+            
+           
+            srcSet="/Images/Service-min.jpg"
             alt="Services"
             className="img-fluid w-100 h-10"
-            style={{ filter: "brightness(70%)", height: "450px" }}
+            style={{ height: "450px" }}
           />
-          {/* <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
-            <h1 className="text-light ">
+          <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
+            <h1 className="text-black ">
               Skin Care Manufacturing Total Solutions
             </h1>
 
-            <p className="d-flex text-white justify-content-center">
-              <Link className="nav-link text-danger" to="/">
+            <p className="d-flex text-black justify-content-center">
+              <Link className="nav-link text-danger " to="/">
                 {" "}
                 Home
               </Link>{" "}
               / Services
             </p>
             <Modal />
-          </div> */}
+          </div>
         </div>
         <div className="text-center m-5">
           <h2 className="fw-bold">
-            Ariel Cosmetic Are Not Only Producers, But Also Skin Care Product
+            Emerence Skin Are Not Only Producers, But Also Skin Care Product
             Supply Chain Integrators
           </h2>
         </div>
@@ -125,7 +126,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="col">
-                <div className="card shadow p-4 mb-5 bg-body rounded">
+                <div className="card shadow p-4 mb- bg-body rounded">
                   <img
                     src="/Images/favcons/callcenter.png"
                     className="card-img-left logo-img"
@@ -142,7 +143,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <div className="card shadow p-4 mb-5 bg-body rounded">
                   <img
                     src="/Images/favcons/callcenter.png"
@@ -249,7 +250,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="card m-5">
