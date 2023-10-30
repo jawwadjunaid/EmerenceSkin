@@ -23,7 +23,7 @@ const CompanyLayout = () => {
                   style={{ color: "white", backgroundColor: "#2cadcd" }}
                   size="lg"
                 >
-                  <Link to="/acneacre">{`Read More >>>`}</Link>
+                  <Link to="/acneacre">{`Read More`}</Link>
                 </Button>
               </CardOverflow>
             </div>
@@ -45,7 +45,7 @@ const CompanyLayout = () => {
                   style={{ color: "white", backgroundColor: "#2cadcd" }}
                   size="lg"
                 >
-                  <Link to="/antiaging">{`Read More >>>`}</Link>
+                  <Link to="/antiaging">{`Read More`}</Link>
                 </Button>
               </CardOverflow>
             </div>
@@ -67,7 +67,7 @@ const CompanyLayout = () => {
                   style={{ color: "white", backgroundColor: "#2cadcd" }}
                   size="lg"
                 >
-                  <Link to="/cleanser">{`Read More >>>`}</Link>
+                  <Link to="/cleanser">{`Read More `}</Link>
                 </Button>
               </CardOverflow>
             </div>

@@ -17,13 +17,13 @@ const AboutPage = () => {
         />
         <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
           <h1 style={{fontWeight:"bold", color:"#461111"}}  >EMERENCE SKIN CARE</h1>
-          <p className="d-flex text-black justify-content-center">
+          {/* <p className="d-flex text-black justify-content-center">
             <Link className="nav-link text-danger" to="/">
               {" "}
               Home
             </Link >{" "}
             / About
-          </p>
+          </p> */}
           <Modal />
         </div>
       </div>

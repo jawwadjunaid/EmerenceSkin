@@ -23,13 +23,13 @@ const Services = () => {
               Skin Care Manufacturing Total Solutions
             </h1>
 
-            <p className="d-flex text-black justify-content-center">
+            {/* <p className="d-flex text-black justify-content-center">
               <Link className="nav-link text-danger " to="/">
                 {" "}
                 Home
               </Link>{" "}
               / Services
-            </p>
+            </p> */}
             <Modal />
           </div>
         </div>
