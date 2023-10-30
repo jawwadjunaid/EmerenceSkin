@@ -14,20 +14,20 @@ const Slider =()=>{
     <Carousel>
       <Carousel.Item>
         <img srcSet="/Images/bg-img2-min.jpg" loading='lazy' className="d-block w-100" alt="Slide 1" />
-        <div  className="position-absolute top-50 bottom-100 start-50 translate-middle text-center w-100 ">
-         <Modal/>
+        <div  className="position-absolute button-container" >
+         <Modal buttonSize="large"/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <img srcSet="/Images/bg-img1-min.jpg" loading='lazy' className="d-block w-100" alt="Slide 2" />
-        <div  className="position-absolute top-50 bottom-100 start-50 translate-middle text-center w-100 ">
-         <Modal/>
+        <div  className="position-absolute button-container" >
+         <Modal buttonSize="large"/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <img srcSet="/Images/bg-img.jpg" loading='lazy' className="d-block w-100" alt="Slide 3" />
-        <div  className="position-absolute top-50 bottom-100 start-50 translate-middle text-center w-100 ">
-         <Modal/>
+        <div  className="position-absolute button-container" >
+         <Modal buttonSize="large"/>
         </div>
       </Carousel.Item>
     </Carousel>

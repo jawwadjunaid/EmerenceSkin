@@ -11,12 +11,13 @@ import Stack from '@mui/joy/Stack';
 import { TextareaAutosize } from '@mui/base';
 
 const BtnModal = (props) => {
+  const { buttonSize } = props;
   const [open, setOpen] = React.useState(false);
   return (
    <>
     <Button
         variant="outlined"
-       style={{color:'white',backgroundColor: '#2cadcd', borderColor:'white'}}
+       style={{color:'white',backgroundColor: '#2cadcd', borderColor:'white', width: buttonSize === 'large' ? '200px' : 'auto',}}
        
         onClick={() => setOpen(true)}
       >
