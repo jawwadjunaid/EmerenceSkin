@@ -214,7 +214,7 @@ const Navbar = () => {
                       <div className="product-column" >
                         <img
                           className="product-image"
-                          src="/Images/logo.png"
+                          src="/Images/ProductImages/AntiAging/Matryxl.jpg"
                           alt='/'
                           style={{height:"30px",width:"30px"}}
                         />

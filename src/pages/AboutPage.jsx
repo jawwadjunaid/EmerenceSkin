@@ -126,7 +126,7 @@ const AboutPage = () => {
             </div>
             <div className="col-md-6 ">
               <img
-                src="/Images/values.jpg"
+                src="/Images/shein1.jpeg"
                 alt="Your Image"
                 className="img-fluid"
                 style={{ width: "800px", height: "400px" }}

@@ -52,7 +52,7 @@ const AntiAging = () => {
               </Carousel.Item>
             </Carousel>
           </div>
-          <div className="productDetails" style={{ marginLeft: "80px" }}>
+          <div className="productDetails" style={{ marginLeft: "40px" }}>
             <CardContent>
               <Typography
                 sx={{ mt: 1, fontWeight: "xl", text: "center" }}
@@ -76,7 +76,7 @@ const AntiAging = () => {
               (- Order - Sample <b>( MOQ 500g) </b> Or <b>Bulk</b>)
             </Typography>
             <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
-              <BtnModal style={{ width: "100%" }} />
+              <BtnModal buttonSize="large" />
             </div>
             <div className="productDescription mt-3">
               <h3>DESCRIPTION</h3>
