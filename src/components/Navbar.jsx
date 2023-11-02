@@ -72,9 +72,9 @@ const Navbar = () => {
   ];
 
   const handleSubMenuClick = (subMenu) => (event) => {
-    if(subMenuItems.length > 0) {
-      setSubMenuItems([])
-      return
+    if (subMenuItems.length > 0) {
+      setSubMenuItems([]);
+      return;
     }
     setSubMenuItems(subMenu);
     setAnchorEl(event.currentTarget);
@@ -211,12 +211,20 @@ const Navbar = () => {
                       onClick={(event) => handleNestedMenuClick(event)}
                       key={subMenuItem.label}
                     >
+                      <div className="product-column" >
+                        <img
+                          className="product-image"
+                          src="/Images/logo.png"
+                          alt='/'
+                          style={{height:"30px",width:"30px"}}
+                        />
+                      </div>
                       {subMenuItem.label}
                       {subMenuItem?.nestedMenu?.map((nestedMenuItem) => (
                         <Link key={nestedMenuItem} to={nestedMenuItem?.path}>
                           <MenuItem
                             onClose={handleClose}
-                            style={{ color: "black"}}
+                            style={{ color: "black" }}
                           >
                             {nestedMenuItem?.title}
                           </MenuItem>
