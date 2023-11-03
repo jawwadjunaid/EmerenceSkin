@@ -6,13 +6,15 @@ import Typography from "@mui/joy/Typography";
 import Carousel from "react-bootstrap/Carousel";
 import BtnModal from "../../../components/Modal/BtnModal";
 import "./SunCare.css";
+
 const SunCare = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <div className="Container d-flex m-5 justify-content-center align-items-center ">
-          <div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            {/* Image Slider */}
             <Carousel>
               <Carousel.Item>
                 <img
@@ -35,63 +37,58 @@ const SunCare = () => {
                   loading="lazy"
                   srcSet="/Images/ProductImages/Suncare/TintedSPF.jpg"
                   className="d-block w-100"
-                  alt="Slide 2"
+                  alt="Slide 3"
                 />
               </Carousel.Item>
+              {/* Add more carousel items as needed */}
             </Carousel>
           </div>
 
-          <div className="productDetails" style={{ marginLeft: "40px" }}>
-            <CardContent>
-              <Typography
-                sx={{ mt: 1, fontWeight: "xl", text: "center" }}
-                level="body-lg"
-              >
-                SUN CARE
-              </Typography>
-            </CardContent>
+          <div className="col-md-6">
+            {/* Content */}
+            <div className="productDetails" style={{ marginLeft: "40px" }}>
+              <CardContent>
+                <Typography
+                  sx={{ mt: 1, fontWeight: "xl", text: "center" }}
+                  level="body-lg"
+                >
+                  SUN CARE
+                </Typography>
+              </CardContent>
 
-            <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
-              Formula
-            </Typography>
-            <Typography>
-              ⁃ SPF 60 Cream Gel with no White Cast<br></br>⁃ Tinted SPF 30
-              Cream<br></br>⁃ Sun Block Gel with SPF 50
-            </Typography>
-            <Typography level="body-sm" sx={{ mt: 3 }}>
-              (- Order - Sample <b>( MOQ 500g) </b> Or <b>Bulk</b>)
-            </Typography>
-            <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
-              <BtnModal buttonSize="large" />
-            </div>
-            <div className="productDescription mt-3">
-              <h3>DESCRIPTION</h3>
               <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
-                PRODUCT SPECIFICATION
+                Formula
               </Typography>
-              <h6 className="mt-3">Salicylic Acid Face Wash</h6>
               <Typography>
-                ⁃ Ideal for oily and acne-prone skin.<br></br>⁃ Helps to remove
-                excess oil and dead skin cells.
+                ⁃ SPF 60 Cream Gel with no White Cast
+                <br></br>⁃ Tinted SPF 30 Cream
+                <br></br>⁃ Sun Block Gel with SPF 50
               </Typography>
-              <h6 className="mt-3">Mendelic Acid and Tea Tree Oil Face Wash</h6>
-              <Typography>
-                ⁃ Gentle and effective for all skin types, including sensitive
-                skin <br></br>⁃ Helps to cleanse and exfoliate the skin without
-                over-drying it
+              <Typography level="body-sm" sx={{ mt: 3 }}>
+                (- Order - Sample <b>( MOQ 500g) </b> Or <b>Bulk</b>)
               </Typography>
-              <h6 className="mt-3">Vitamin C + Vitamin B3 Face Wash</h6>
-              <Typography>
-                ⁃ Suitable for all skin types, including dry, oily, and
-                combination skin.<br></br>⁃ Helps to brighten and even out the
-                skin tone.
-              </Typography>
-              <h6 className="mt-3">Glycolic Acid Face Wash</h6>
-              <Typography>
-                ⁃ Exfoliating face wash that is ideal for all skin types, except
-                for sensitive skin.<br></br>⁃ Helps to remove dead skin cells
-                and reveal brighter, smoother skin beneath.
-              </Typography>
+              <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
+                <BtnModal buttonSize="large" />
+              </div>
+              <div className="productDescription mt-3">
+                <h3>DESCRIPTION</h3>
+                <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
+                  PRODUCT SPECIFICATION
+                </Typography>
+                <h6 className="mt-3">SPF 60 Cream Gel with no White Cast</h6>
+                <Typography>
+                  {/* Add description for SPF 60 Cream Gel */}
+                </Typography>
+                <h6 className="mt-3">Tinted SPF 30 Cream</h6>
+                <Typography>
+                  {/* Add description for Tinted SPF 30 Cream */}
+                </Typography>
+                <h6 className="mt-3">Sun Block Gel with SPF 50</h6>
+                <Typography>
+                  {/* Add description for Sun Block Gel */}
+                </Typography>
+                {/* Add more description items as needed */}
+              </div>
             </div>
           </div>
         </div>
