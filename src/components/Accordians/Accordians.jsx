@@ -37,8 +37,7 @@ const Accordians = () => {
           <AccordionDetails>
             <Typography>
               No, we do not use parabens in our products. All of our products
-              are paraben-free. All our formulations are compliance with EU and
-              FDA regulations.
+              are paraben-free.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -54,33 +53,15 @@ const Accordians = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Yes, we securely follow international and China FDA standard for
-              materials handling and formulation development. All our
-              formulations meet EU and FDA regulations. In this regard, we have
-              upgraded our supply chain so that the materials used meet the
-              regulations too. More than 90% of our raw materials are imported
-              from Europe, the USA, Australia, and Japan with associated
-              certificates.
+              Yes, we securely follow international standard for materials
+              handling and formulation development. All our formulations meet EU
+              regulations. In this regard, we have upgraded our supply chain so
+              that the materials used meet the regulations too.
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography>Do You Use Parabens In Your Formulas?</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              No, we do not use parabens in our products. All of our products
-              are paraben-free. All our formulations are compliance with EU and
-              FDA regulations.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
+
+        {/* <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
@@ -99,29 +80,8 @@ const Accordians = () => {
               companies.
             </Typography>
           </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography>
-              Do Your Formulations Meet Quality Standards?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              Yes, we tightly follow international standard and China FDA for
-              the materials using and formulations development. All our
-              formulations meet EU and FDA regulations, by this we have upgraded
-              our supply chain so that the materials used can meet the
-              regulations too, more than 90% of our raw materials are imported
-              from Europe, USA, Australia, and Japan with associated
-              certificates.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
+
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}

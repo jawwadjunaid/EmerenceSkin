@@ -17,17 +17,12 @@ const CompanyValueCard = () => {
         >
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                loading="lazy"
-                srcSet="/Images/823.jpg"
-                alt=""
-                to="/facewash"
-              />
+              <img loading="lazy" srcSet="/Images/823.jpg" alt="" to="#" />
             </AspectRatio>
           </CardOverflow>
           <CardContent>
             <Link
-              href="/facewash"
+              href="#"
               fontWeight="md"
               color="neutral"
               textColor="text.primary"
@@ -50,17 +45,12 @@ const CompanyValueCard = () => {
         >
           <CardOverflow>
             <AspectRatio sx={{ minWidth: 200 }}>
-              <img
-                srcSet="/Images/194.jpg"
-                loading="lazy"
-                alt=""
-                to="/shampoo"
-              />
+              <img srcSet="/Images/194.jpg" loading="lazy" alt="" to="#" />
             </AspectRatio>
           </CardOverflow>
           <CardContent>
             <Link
-              href="/shampoo"
+              href="#"
               fontWeight="md"
               color="neutral"
               textColor="text.primary"
@@ -87,7 +77,7 @@ const CompanyValueCard = () => {
           </CardOverflow>
           <CardContent>
             <Link
-              href="#product-card"
+              href="#"
               fontWeight="md"
               color="neutral"
               textColor="text.primary"

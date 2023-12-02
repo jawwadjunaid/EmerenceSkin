@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 import CardOverflow from "@mui/joy/CardOverflow";
 import Link from "@mui/joy/Link";
+import Modal from "../Modal/BtnModal";
 import Button from "@mui/joy/Button";
 const CompanyDevelopment = () => {
   return (
     <>
-     <div className="row row-cols- row-cols-md-2 g-4 mt-4  mx-5 s p-3 mb-5 bg-body rounded">
+      <div className="row row-cols- row-cols-md-2 g-4 mt-4  mx-5 s p-3 mb-5 bg-body rounded">
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
-            <img loading='lazy'
+            <img
+              loading="lazy"
               srcSet="/Images/favcons/lptp.png"
               style={{ height: "70px", width: "70px" }}
               className="card-img-top"
@@ -24,16 +26,15 @@ const CompanyDevelopment = () => {
                 customized requirements.
               </p>
               <CardOverflow>
-              <Button style={{color:'white', backgroundColor:'#2cadcd'}} variant="solid"  size="lg">
-              <Link to="/formuladevelopment">{`Read More`}</Link>
-            </Button>
-            </CardOverflow>
+                <Modal buttonSize="large" />
+              </CardOverflow>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow p-4 mb-5 bg-body rounded">
-            <img loading='lazy'
+            <img
+              loading="lazy"
               srcSet="/Images/favcons/package.png"
               style={{ height: "70px", width: "70px" }}
               className="card-img-top logo-img"
@@ -49,16 +50,14 @@ const CompanyDevelopment = () => {
                 competition.
               </p>
               <CardOverflow>
-              <Button variant="solid" style={{color:'white',backgroundColor:'#2cadcd'}} size="lg">
-              <Link to="/cleanser">{`Read More`}</Link>
-            </Button>
-            </CardOverflow>
+                <Modal buttonSize="large" />
+              </CardOverflow>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default CompanyDevelopment;

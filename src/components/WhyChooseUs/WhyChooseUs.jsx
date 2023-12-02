@@ -11,9 +11,9 @@ const WhyChooseUs = () => {
 
       <div>
         <div>
-          <div className="row row-cols-1 row-cols-md-4 mt-2 m-2 g-4  p-3 mb-5 bg-body rounded">
+          <div className="row p-3 bg-body rounded justify-content-center">
             <div className="col">
-              <div className="card shadow p-4 mb-4 bg-body rounded">
+              <div className="card shadow p-2 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/funnel.png"
                   style={{ height: "70px", width: "70px" }}
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow p-4 mb-4 bg-body rounded">
+              <div className="card shadow p-2 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/pckge.png"
                   style={{ height: "70px", width: "70px" }}
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="col ">
-              <div className="card shadow p-4 mb-4 bg-body rounded">
+              <div className="card shadow p-2 mb-4 bg-body rounded">
                 <img
                   src="/Images/favcons/funnel1.png"
                   style={{ height: "70px", width: "70px" }}
@@ -58,22 +58,7 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card shadow p-2 mb-4 bg-body rounded">
-                <img
-                  src="/Images/favcons/Q.png"
-                  style={{ height: "70px", width: "70px" }}
-                  className="card-img-left logo-img"
-                  alt="Logo"
-                />
-                <div className="card-body">
-                  {/* <h5 className="card-title">Card title</h5> */}
-                  <p className="card-text text-center fw-bold">
-                    ISO22716, GMPC, Sedex, FDA Certificates
-                  </p>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

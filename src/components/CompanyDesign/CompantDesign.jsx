@@ -37,7 +37,7 @@ const CompantDesign = () => {
               <h5 className="card-title">After-sales</h5>
               <p className="card-text">
                 With 24/7/365 After-sales Support and one-to-one professional
-                consultation, Arielcosmetic hopes to solve your problems as
+                consultation, Emerence Skin & Hair hopes to solve your problems as
                 quickly as possible.
               </p>
             </div>
