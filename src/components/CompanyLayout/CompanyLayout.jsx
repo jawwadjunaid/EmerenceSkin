@@ -1,8 +1,7 @@
 import React from "react";
 import CardOverflow from "@mui/joy/CardOverflow";
-import Link from "@mui/joy/Link";
 
-import Button from "@mui/joy/Button";
+import Modal from "../Modal/BtnModal";
 const CompanyLayout = () => {
   return (
     <>
@@ -11,20 +10,15 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-2 bg-white" color="#f7f7f7">
             <img
               loading="lazy"
-              srcSet="/Images/shein1.jpeg"
+              srcSet="/Images/ProductImages/Eyecare/Saffron.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
+              height={'350px'}
             />
             <div className="card-body">
-              <h5 className="card-title">United Kingdom {`(UK)`}</h5>
+              <h5 className="card-title">UNITED KINGDOM  {`(UK)`}</h5>
               <CardOverflow>
-                <Button
-                  variant="solid"
-                  style={{ color: "white", backgroundColor: "#2cadcd" }}
-                  size="lg"
-                >
-                  <Link to="/acneacre">{`Read More`}</Link>
-                </Button>
+              <Modal buttonSize="large" />
               </CardOverflow>
             </div>
           </div>
@@ -33,20 +27,15 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-4 bg-white">
             <img
               loading="lazy"
-              srcSet="/Images/KNC.jpeg"
+              srcSet="/Images/ProductImages/Facewash/Glycolic.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
+              height={'350px'}
             />
             <div className="card-body">
-              <h5 className="card-title">United State America</h5>
+              <h5 className="card-title" >UNITED STATE AMERICA</h5>
               <CardOverflow>
-                <Button
-                  variant="solid"
-                  style={{ color: "white", backgroundColor: "#2cadcd" }}
-                  size="lg"
-                >
-                  <Link to="/antiaging">{`Read More`}</Link>
-                </Button>
+              <Modal buttonSize="large" />
               </CardOverflow>
             </div>
           </div>
@@ -55,20 +44,18 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-4 bg-white">
             <img
               loading="lazy"
-              srcSet="/Images/portugal.jpeg"
+              srcSet="/Images/ProductImages/Emollients/drgandflaky.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
+              height={'350px'}
             />
             <div className="card-body">
-              <h5 className="card-title">Pakistan</h5>
+              <h5 className="card-title">PAKISTAN</h5>
               <CardOverflow>
-                <Button
-                  variant="solid"
-                  style={{ color: "white", backgroundColor: "#2cadcd" }}
-                  size="lg"
-                >
-                  <Link to="/cleanser">{`Read More `}</Link>
-                </Button>
+                
+                  <Modal buttonSize="large" />
+                
+                
               </CardOverflow>
             </div>
           </div>

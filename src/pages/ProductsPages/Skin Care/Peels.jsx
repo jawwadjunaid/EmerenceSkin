@@ -69,25 +69,25 @@ const Peels = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">30% AHA and 2% Salicylic Acid Peel</h6>
                 <Typography>
-                  {/* Add description for 30% AHA and 2% Salicylic Acid Peel */}
+              
                 </Typography>
                 <h6 className="mt-3">Glycolic Acid Peel</h6>
                 <Typography>
-                  {/* Add description for Glycolic Acid Peel */}
+              
                 </Typography>
                 <h6 className="mt-3">TCA Peels</h6>
                 <Typography>
-                  {/* Add description for TCA Peels */}
+                
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+               
+              </div> */}
             </div>
           </div>
         </div>

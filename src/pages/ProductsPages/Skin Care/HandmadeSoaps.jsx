@@ -69,25 +69,25 @@ const HandmadeSoaps = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Glycerine Soap</h6>
                 <Typography>
-                  {/* Add description for Glycerine Soap */}
+             
                 </Typography>
                 <h6 className="mt-3">Soap with Essen Oils</h6>
                 <Typography>
-                  {/* Add description for Soap with Essen Oils */}
+            
                 </Typography>
                 <h6 className="mt-3">Carrier Oils and Fruit Peels</h6>
                 <Typography>
-                  {/* Add description for Carrier Oils and Fruit Peels */}
+        
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+             
+              </div> */}
             </div>
           </div>
         </div>

@@ -68,25 +68,25 @@ const ShowerGels = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Lavender Shower Gel</h6>
                 <Typography>
-                  {/* Add description for Lavender Shower Gel */}
+                 
                 </Typography>
                 <h6 className="mt-3">Grapefruit And Orange Shower Gel</h6>
                 <Typography>
-                  {/* Add description for Grapefruit And Orange Shower Gel */}
+                
                 </Typography>
                 <h6 className="mt-3">SLS Free Shower Gel</h6>
                 <Typography>
-                  {/* Add description for SLS Free Shower Gel */}
+                 
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+          
+              </div> */}
             </div>
           </div>
         </div>

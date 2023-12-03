@@ -69,25 +69,25 @@ const Masks = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Rejuvenating Frankincense Face Mask</h6>
                 <Typography>
-                  {/* Add description for Rejuvenating Frankincense Face Mask */}
+                 
                 </Typography>
                 <h6 className="mt-3">Apha Arbutin and B3 for Skin Glow</h6>
                 <Typography>
-                  {/* Add description for Apha Arbutin and B3 for Skin Glow */}
+                  
                 </Typography>
                 <h6 className="mt-3">Green Tea, Retinol and Jojoba Oil Mask for Mature Skin</h6>
                 <Typography>
-                  {/* Add description for Green Tea, Retinol and Jojoba Oil Mask for Mature Skin */}
+   
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+              
+              </div> */}
             </div>
           </div>
         </div>

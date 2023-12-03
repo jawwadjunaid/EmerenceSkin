@@ -16,9 +16,9 @@ const CompantDesign = () => {
             <div className="card-body">
               <h5 className="card-title">Free Design & Sampling</h5>
               <p className="card-text">
-                Ariel Cosmetic's value-added services can reduce your operating
-                costs directly at project's beginning stage, and allow you to
-                start your business at the lowest cost.
+                Emerence Skin & Hair value-added services can reduce your
+                operating costs directly at project's beginning stage, and allow
+                you to start your business at the lowest cost.
               </p>
             </div>
           </div>
@@ -37,8 +37,8 @@ const CompantDesign = () => {
               <h5 className="card-title">After-sales</h5>
               <p className="card-text">
                 With 24/7/365 After-sales Support and one-to-one professional
-                consultation, Emerence Skin & Hair hopes to solve your problems as
-                quickly as possible.
+                consultation, Emerence Skin & Hair hopes to solve your problems
+                as quickly as possible.
               </p>
             </div>
           </div>

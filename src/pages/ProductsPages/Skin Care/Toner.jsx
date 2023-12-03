@@ -71,33 +71,33 @@ const Toner = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">B3 and Hyaluronic Acid Toner</h6>
                 <Typography>
-                  {/* Add description for B3 and Hyaluronic Acid Toner */}
+                
                 </Typography>
                 <h6 className="mt-3">AHA and BHA Toner</h6>
                 <Typography>
-                  {/* Add description for AHA and BHA Toner */}
+                 
                 </Typography>
                 <h6 className="mt-3">Grapefruit Extract Toner</h6>
                 <Typography>
-                  {/* Add description for Grapefruit Extract Toner */}
+                  
                 </Typography>
                 <h6 className="mt-3">Grape Seed Extract and Sodium PCA Toner</h6>
                 <Typography>
-                  {/* Add description for Grape Seed Extract and Sodium PCA Toner */}
+           
                 </Typography>
                 <h6 className="mt-3">Tea Tree Oil Toner</h6>
                 <Typography>
-                  {/* Add description for Tea Tree Oil Toner */}
+               
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+              
+              </div> */}
             </div>
           </div>
         </div>

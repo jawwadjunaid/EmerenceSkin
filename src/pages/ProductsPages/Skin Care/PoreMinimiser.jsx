@@ -69,25 +69,25 @@ const PoreMinimiser = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Hyaluronic Acid, Salicylic Acid and Allantoin Pore Minimiser Serum</h6>
                 <Typography>
-                  {/* Add description for Hyaluronic Acid, Salicylic Acid and Allantoin Pore Minimiser Serum */}
+                 
                 </Typography>
                 <h6 className="mt-3">B3, Lactic Acid and Zinc PCA Serum</h6>
                 <Typography>
-                  {/* Add description for B3, Lactic Acid and Zinc PCA Serum */}
+                  
                 </Typography>
                 <h6 className="mt-3">Glycolic Acid, Lactic Acid, Witch Hazel with Hyaluronic Acid Pore Minimiser Serum</h6>
                 <Typography>
-                  {/* Add description for Glycolic Acid, Lactic Acid, Witch Hazel with Hyaluronic Acid Pore Minimiser Serum */}
+                 
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+            
+              </div> */}
             </div>
           </div>
         </div>

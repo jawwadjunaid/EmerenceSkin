@@ -69,25 +69,25 @@ const Moisturisers = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Moisturizer for Dry Skin</h6>
                 <Typography>
-                  {/* Add description for Moisturizer for Dry Skin */}
+                 
                 </Typography>
                 <h6 className="mt-3">Moisturizer for Oily Skin and Acne-Prone Skin</h6>
                 <Typography>
-                  {/* Add description for Moisturizer for Oily Skin and Acne-Prone Skin */}
+                
                 </Typography>
                 <h6 className="mt-3">Gel Moisturizer with Hyaluronic Acid</h6>
                 <Typography>
-                  {/* Add description for Gel Moisturizer with Hyaluronic Acid */}
+                 
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+              
+              </div> */}
             </div>
           </div>
         </div>

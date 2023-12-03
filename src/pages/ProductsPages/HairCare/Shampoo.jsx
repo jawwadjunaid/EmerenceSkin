@@ -82,7 +82,7 @@ const Shampoo = () => {
               <div className="getQuoteModel mt-4" style={{ width: '100px' }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: 'xl' }}>
                   PRODUCT SPECIFICATION
@@ -110,7 +110,7 @@ const Shampoo = () => {
                   for sensitive skin.<br></br>⁃ Helps to remove dead skin cells and
                   reveal brighter, smoother skin beneath.
                 </Typography>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

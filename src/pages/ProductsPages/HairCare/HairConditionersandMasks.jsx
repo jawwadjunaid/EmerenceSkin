@@ -46,7 +46,7 @@ const HairConditionersandMasks = () => {
               <div className="getQuoteModel mt-4" style={{ width: '100px' }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: 'xl' }}>
                   PRODUCT SPECIFICATION
@@ -55,7 +55,7 @@ const HairConditionersandMasks = () => {
                 <Typography>
                   ⁃ Ideal for dry and damaged hair.<br></br>⁃ Contains Biotin, Argan Oil, Placental Extracts, and Hydrolyzed Keratin for hair repair.
                 </Typography>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -60,21 +60,21 @@ const LipCare = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Healing Lavender Lip Balm</h6>
                 <Typography>
-                  {/* Add description for Healing Lavender Lip Balm */}
+            
                 </Typography>
                 <h6 className="mt-3">Lip Care for Dark and Dehydrated Lips</h6>
                 <Typography>
-                  {/* Add description for Lip Care for Dark and Dehydrated Lips */}
+                
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+            
+              </div> */}
             </div>
           </div>
         </div>

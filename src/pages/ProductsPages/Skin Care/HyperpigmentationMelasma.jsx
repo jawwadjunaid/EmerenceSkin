@@ -77,29 +77,29 @@ const HyperpigmentationMelasma = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Alpha Arbutin, Kojic Acid, B3 Niacinamide</h6>
                 <Typography>
-                  {/* Add description for Alpha Arbutin, Kojic Acid, B3 Niacinamide */}
+          
                 </Typography>
                 <h6 className="mt-3">Glutathione, Kojic Acid Serum</h6>
                 <Typography>
-                  {/* Add description for Glutathione, Kojic Acid Serum */}
+             
                 </Typography>
                 <h6 className="mt-3">Tranexamic Acid Combination Cream and Serum</h6>
                 <Typography>
-                  {/* Add description for Tranexamic Acid Combination Cream and Serum */}
+            
                 </Typography>
                 <h6 className="mt-3">K.A.Tx.E naturals with Alpha Arbutin, Kojic Acid, Hyaluronic Acid, and Squalane for Spot Correction and Melasma</h6>
                 <Typography>
-                  {/* Add description for K.A.Tx.E naturals */}
+              
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+            
+              </div> */}
             </div>
           </div>
         </div>

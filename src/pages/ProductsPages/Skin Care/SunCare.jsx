@@ -70,25 +70,25 @@ const SunCare = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">SPF 60 Cream Gel with no White Cast</h6>
                 <Typography>
-                  {/* Add description for SPF 60 Cream Gel */}
+                
                 </Typography>
                 <h6 className="mt-3">Tinted SPF 30 Cream</h6>
                 <Typography>
-                  {/* Add description for Tinted SPF 30 Cream */}
+                
                 </Typography>
                 <h6 className="mt-3">Sun Block Gel with SPF 50</h6>
                 <Typography>
-                  {/* Add description for Sun Block Gel */}
+              
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+            
+              </div> */}
             </div>
           </div>
         </div>

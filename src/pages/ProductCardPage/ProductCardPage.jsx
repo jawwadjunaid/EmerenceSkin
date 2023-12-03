@@ -69,29 +69,29 @@ const ProductCardPage = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
                 </Typography>
                 <h6 className="mt-3">Salicylic Acid Face Wash</h6>
                 <Typography>
-                  {/* Add description for Salicylic Acid Face Wash */}
+                 
                 </Typography>
                 <h6 className="mt-3">Mendelic Acid and Tea Tree Oil Face Wash</h6>
                 <Typography>
-                  {/* Add description for Mendelic Acid and Tea Tree Oil Face Wash */}
+                 
                 </Typography>
                 <h6 className="mt-3">Vitamin C + Vitamin B3 Face Wash</h6>
                 <Typography>
-                  {/* Add description for Vitamin C + Vitamin B3 Face Wash */}
+                
                 </Typography>
                 <h6 className="mt-3">Glycolic Acid Face Wash</h6>
                 <Typography>
-                  {/* Add description for Glycolic Acid Face Wash */}
+               
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+             
+              </div> */}
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ const Cleanser = () => {
               <div className="getQuoteModel mt-4" style={{ width: "100px" }}>
                 <BtnModal buttonSize="large" />
               </div>
-              <div className="productDescription mt-3">
+              {/* <div className="productDescription mt-3">
                 <h3>DESCRIPTION</h3>
                 <Typography level="title-lg" sx={{ mt: 1, fontWeight: "xl" }}>
                   PRODUCT SPECIFICATION
@@ -71,8 +71,8 @@ const Cleanser = () => {
                   ⁃ Ideal for oily and acne-prone skin.
                   <br></br>⁃ Helps to remove excess oil and dead skin cells.
                 </Typography>
-                {/* Add more description items as needed */}
-              </div>
+               
+              </div> */}
             </div>
           </div>
         </div>
