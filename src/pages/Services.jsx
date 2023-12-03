@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import Modal from "../components/Modal/BtnModal";
 
@@ -15,8 +15,8 @@ const Services = () => {
            
             srcSet="/Images/Service-min.jpg"
             alt="Services"
-            className="img-fluid w-100 h-10"
-            style={{ height: "450px" }}
+            className="img-fluid w-100 h-30"
+            style={{ height: "750px" }}
           />
           <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
             <h1 className="text-black ">
