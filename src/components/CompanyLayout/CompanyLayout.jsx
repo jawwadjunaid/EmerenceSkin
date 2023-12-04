@@ -10,10 +10,10 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-2 bg-white" color="#f7f7f7">
             <img
               loading="lazy"
-              srcSet="/Images/ProductImages/Eyecare/Saffron.jpg"
+              srcSet="/Images/UK.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
-              height={'350px'}
+              height={'250px'}
             />
             <div className="card-body">
               <h5 className="card-title">UNITED KINGDOM  {`(UK)`}</h5>
@@ -27,13 +27,13 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-4 bg-white">
             <img
               loading="lazy"
-              srcSet="/Images/ProductImages/Facewash/Glycolic.jpg"
+              srcSet="/Images/USA.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
-              height={'350px'}
+              height={'250px'}
             />
             <div className="card-body">
-              <h5 className="card-title" >UNITED STATE AMERICA</h5>
+              <h5 className="card-title" >UNITED STATE OF AMERICA</h5>
               <CardOverflow>
               <Modal buttonSize="large" />
               </CardOverflow>
@@ -44,10 +44,10 @@ const CompanyLayout = () => {
           <div className="card  p-2 mb-4 bg-white">
             <img
               loading="lazy"
-              srcSet="/Images/ProductImages/Emollients/drgandflaky.jpg"
+              srcSet="/Images/PK.jpg"
               className="card-img-top pb-5 shadow-none bg-light"
               alt="..."
-              height={'350px'}
+              height={'250px'}
             />
             <div className="card-body">
               <h5 className="card-title">PAKISTAN</h5>

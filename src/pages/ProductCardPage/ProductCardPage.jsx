@@ -59,7 +59,7 @@ const ProductCardPage = () => {
               </Typography>
               <Typography>
                 ⁃ Salicylic Acid for oily and acne-prone skin
-                <br></br>⁃ Mendelic acid and tea tree oil face wash
+                <br></br>⁃ Mandelic acid and tea tree oil face wash
                 <br></br>⁃ Vitamin C + Vitamin B3 Face Wash
                 <br></br>⁃ Glycolic Acid Face Wash
               </Typography>
