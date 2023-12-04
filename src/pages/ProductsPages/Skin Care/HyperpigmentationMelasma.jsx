@@ -18,12 +18,12 @@ const HyperpigmentationMelasma = () => {
             <Carousel>
               <Carousel.Item>
                 <img
-                  srcSet="/Images/ProductImages/Hyperpigmentation/AlphaArbutin.jpg"
+                  srcSet="/Images/ProductImages/Hyperpigmentation/HP.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading='lazy'
                   srcSet="/Images/ProductImages/Hyperpigmentation/Glutathione.jpg"
@@ -46,7 +46,7 @@ const HyperpigmentationMelasma = () => {
                   className="d-block w-100"
                   alt="Slide 4"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

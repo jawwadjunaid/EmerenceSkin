@@ -19,19 +19,19 @@ const AcneAcre = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/AcneCare/AzelaicAcid.jpg"
+                  srcSet="/Images/ProductImages/AcneCare/AC.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/AcneCare/AzelaicAcid.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </div>
           <div className="col-md-6">

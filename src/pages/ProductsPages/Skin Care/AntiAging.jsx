@@ -19,19 +19,19 @@ const AntiAging = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/AntiAging/Hydroxysomes.jpg"
+                  srcSet="/Images/ProductImages/AntiAging/AT.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/AntiAging/LupineExtract.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

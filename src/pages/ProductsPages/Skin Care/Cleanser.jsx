@@ -19,19 +19,19 @@ const Cleanser = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/Cleansers/CreamAHA.jpg"
+                  srcSet="/Images/ProductImages/Cleansers/CL.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/Cleansers/CreamBHA.jpg"
                   className="d-block w-100"
                   alt="Slide 2"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

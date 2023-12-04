@@ -19,12 +19,12 @@ const ShowerGels = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/ShowerGels/Grapefruit.jpg"
+                  srcSet="/Images/ProductImages/ShowerGels/SG.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/ShowerGels/LavenderShower.jpg"
@@ -39,7 +39,7 @@ const ShowerGels = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

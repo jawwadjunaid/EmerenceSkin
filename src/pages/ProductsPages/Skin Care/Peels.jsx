@@ -19,12 +19,12 @@ const Peels = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/Peels/AHAA.jpg"
+                  srcSet="/Images/ProductImages/Peels/PE.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/Peels/GlycolicAcid.jpg"
@@ -39,7 +39,7 @@ const Peels = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

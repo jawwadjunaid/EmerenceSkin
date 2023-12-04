@@ -18,12 +18,12 @@ const HairGrowthSerum = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/HairgrowthSerum/PisumSativm.jpg"
+                  srcSet="/Images/ProductImages/HairgrowthSerum/HR.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/HairgrowthSerum/PlaceentalExtracts.jpg"
@@ -38,7 +38,7 @@ const HairGrowthSerum = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </div>
           <div className="col-md-6">

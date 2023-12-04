@@ -19,7 +19,7 @@ const GlowEnhancerOils = () => {
               <Carousel.Item>
                 <img
                   loading='lazy'
-                  srcSet="/Images/ProductImages/GlowEnhancer/Argan.jpg"
+                  srcSet="/Images/ProductImages/GlowEnhancer/GE.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />

@@ -16,18 +16,18 @@ const BodyButter = () => {
           <div className="col-md-6">
             {/* Image Slider */}
             <Carousel>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   src="/Images/ProductImages/BodyButter/lavenderbody.jpg"
                   className="d-block w-100"
                   alt="Lavender Body Butter"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  src="/Images/ProductImages/BodyButter/tangerine.jpg"
+                  src="/Images/ProductImages/BodyButter/BB.webp"
                   className="d-block w-100"
                   alt="Tangerine and Orange Body Butter"
                 />

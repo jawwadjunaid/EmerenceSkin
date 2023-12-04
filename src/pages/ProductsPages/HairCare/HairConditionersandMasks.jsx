@@ -18,7 +18,7 @@ const HairConditionersandMasks = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  src="/Images/ProductImages/HairConditioners/fordrydamaged.jpg"
+                  src="/Images/ProductImages/HairConditioners/HC.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />

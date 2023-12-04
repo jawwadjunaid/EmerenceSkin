@@ -19,12 +19,12 @@ const SunCare = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/Suncare/SunBlockGel.jpg"
+                  srcSet="/Images/ProductImages/Suncare/SU"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/Suncare/SunBlockGel.jpg"
@@ -39,7 +39,7 @@ const SunCare = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

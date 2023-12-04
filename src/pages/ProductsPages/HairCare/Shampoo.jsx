@@ -19,12 +19,12 @@ const Shampoo = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/Shampoo/LavenderandGeranium.jpg"
+                  srcSet="/Images/ProductImages/Shampoo/SHAM.jpeg"
                   className="d-block w-100"
-                  alt="Slide 1"
+                  alt="Shampoo"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/Shampoo/piroctone.jpg"
@@ -54,7 +54,7 @@ const Shampoo = () => {
                   className="d-block w-100"
                   alt="Slide 5"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </div>
           <div className="col-md-6">

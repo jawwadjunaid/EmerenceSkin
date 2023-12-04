@@ -19,12 +19,12 @@ const EyeCare = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  srcSet="/Images/ProductImages/Eyecare/Peptide.jpg"
+                  srcSet="/Images/ProductImages/Eyecare/EY.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   srcSet="/Images/ProductImages/Eyecare/Saffron.jpg"
@@ -39,7 +39,7 @@ const EyeCare = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
               {/* Add more carousel items as needed */}
             </Carousel>
           </div>

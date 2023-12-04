@@ -18,12 +18,12 @@ const FootCare = () => {
               <Carousel.Item>
                 <img
                   loading="lazy"
-                  src="/Images/ProductImages/FootCare/lavenderandaArgan.jpg"
+                  src="/Images/ProductImages/FootCare/FC.jpeg"
                   className="d-block w-100"
                   alt="Slide 1"
                 />
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <img
                   loading="lazy"
                   src="/Images/ProductImages/FootCare/lavenderandhemp.jpg"
@@ -38,7 +38,7 @@ const FootCare = () => {
                   className="d-block w-100"
                   alt="Slide 3"
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </div>
           <div className="col-md-6">
