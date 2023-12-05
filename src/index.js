@@ -48,8 +48,7 @@ import Toner from "./pages/ProductsPages/Skin Care/Toner";
 import HairConditionersandMasks from "./pages/ProductsPages/HairCare/HairConditionersandMasks";
 import HairGrowthSerum from "./pages/ProductsPages/HairCare/HairGrowthSerum";
 import ProductCardPage from "./pages/ProductCardPage/ProductCardPage";
-
-
+import Exfoliants from "./pages/ProductsPages/Skin Care/Exfoliants";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -99,6 +98,7 @@ root.render(
         />
         <Route path="/hairgrowthserum" element={<HairGrowthSerum />} />
         <Route path="/productCard" element={<ProductCardPage/>}></Route>
+        <Route path="/exfoliants" element={<Exfoliants/>}></Route>
       </Routes>
     </Provider>
   </BrowserRouter>

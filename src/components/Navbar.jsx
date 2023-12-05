@@ -26,37 +26,39 @@ const Navbar = () => {
           label: "Skin Care",
 
           nestedMenu: [
-            { title: "Face Wash", path: "/facewash" },
+            { title: "Acne Care", path: "/acnecare" },
+            { title: "Anti Aging", path: "/antiaging" },
             { title: "Cleansers", path: "/cleansers" },
-            { title: "Toners", path: "/toner" },
-            { title: "Pore Minimiser", path: "/poreminimiser" },
-            { title: "Peels", path: "/peels" },
-            { title: "Moisturisers", path: "/moisturisers" },
+            { title: "Emollients", path: "/emollients" },
+            { title: "Exfoliants", path: "/Exfoliants" },
+            { title: "Eye Care", path: "/eyecare" },
+            { title: "Face Wash", path: "/facewash" },
+            { title: "Glow Enhancer Oils", path: "/glowenhanceroils" },
             {
               title: "Hyperpigmentation & Melasma",
               path: "/hyperpigmentation",
             },
-            { title: "Anti Aging", path: "/antiaging" },
-            { title: "Glow Enhancer Oils", path: "/glowenhanceroils" },
-            { title: "Sun Care", path: "/suncare" },
             { title: "Hand made Soaps", path: "/handmadesoaps" },
-            { title: "Shower Gels", path: "/showergels" },
             { title: "Masks", path: "/masks" },
-            { title: "Eye Care", path: "/eyecare" },
-            { title: "Lip Care", path: "/lipcare" },
-            { title: "Acne Care", path: "/acnecare" },
-            { title: "Emollients", path: "/emollients" },
+            { title: "Moisturisers", path: "/moisturisers" },
+            { title: "Pore Minimiser", path: "/poreminimiser" },
+            { title: "Peels", path: "/peels" },
+            { title: "Shower Gels", path: "/showergels" },
+            { title: "Sun Care", path: "/suncare" },
+            { title: "Toners", path: "/toner" },
+            { title: "Lip Care", path: "/lipcare" },   
           ],
         },
         {
           label: "Hair Care",
           nestedMenu: [
-            { title: "Shampoo", path: "/shampoo" },
             { title: "Hair Growth Serum", path: "/hairgrowthserum" },
             {
               title: "Hair Conditioners and Masks",
               path: "/hairconditionersandmasks",
             },
+            { title: "Shampoo", path: "/shampoo" },
+            
           ],
         },
         {
@@ -211,12 +213,12 @@ const Navbar = () => {
                       onClick={(event) => handleNestedMenuClick(event)}
                       key={subMenuItem.label}
                     >
-                      <div className="product-column" >
+                      <div className="product-column">
                         <img
                           className="product-image"
                           src="/Images/ProductImages/AntiAging/Matryxl.jpg"
-                          alt='/'
-                          style={{height:"30px",width:"30px"}}
+                          alt="/"
+                          style={{ height: "30px", width: "30px" }}
                         />
                       </div>
                       {subMenuItem.label}
